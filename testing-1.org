@@ -1,0 +1,18 @@
+
+#+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+# #+ SETUP_FILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+
+* Test Heading 1
+** Test subheading
+\begin{align*}
+x = &y\\
+y = &\int x dx
+\end{align*}
+
+* Test Heading 2
+The test/quiz could be one long .html file or multiple separate ones...with lots of potential for controlling the format etc. 
+
+Not necessarily easy to get variables though.
+
+I'm still working on seeing if diagrams work
