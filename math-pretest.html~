@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-06-16 Tue 06:02 -->
+<!-- 2020-06-16 Tue 06:14 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Math Pre-test</title>
@@ -272,48 +272,48 @@ for the JavaScript code in this tag.
 <h1 class="title">Math Pre-test</h1>
 <h2>Simplify the expressions below:</h2>
 
-<div id="outline-container-org1fc1055" class="outline-2">
-<h2 id="org1fc1055"><span class="section-number-2">1</span> \((2x^2)^2=\)</h2>
+<div id="outline-container-org8f4d4a3" class="outline-2">
+<h2 id="org8f4d4a3"><span class="section-number-2">1</span> \((2x^2)^2=\)</h2>
 </div>
 
 
-<div id="outline-container-orgea7dbde" class="outline-2">
-<h2 id="orgea7dbde"><span class="section-number-2">2</span> \(\left(\frac{z^2}{3y}\right)^3=\)</h2>
+<div id="outline-container-org3e09733" class="outline-2">
+<h2 id="org3e09733"><span class="section-number-2">2</span> \(\left(\frac{z^2}{3y}\right)^3=\)</h2>
 </div>
 
 
-<div id="outline-container-org65b8ec1" class="outline-2">
-<h2 id="org65b8ec1"><span class="section-number-2">3</span> \((0.01)^3 =\)</h2>
+<div id="outline-container-orge4da7f7" class="outline-2">
+<h2 id="orge4da7f7"><span class="section-number-2">3</span> \((0.01)^3 =\)</h2>
 </div>
 
 
-<div id="outline-container-org0d991d1" class="outline-2">
-<h2 id="org0d991d1"><span class="section-number-2">4</span> \(\frac{10^7}{10^5}=\)</h2>
+<div id="outline-container-orgfed14a7" class="outline-2">
+<h2 id="orgfed14a7"><span class="section-number-2">4</span> \(\frac{10^7}{10^5}=\)</h2>
 </div>
 
 
-<div id="outline-container-org910fe87" class="outline-2">
-<h2 id="org910fe87"><span class="section-number-2">5</span> \(\frac{10^2}{10^{-5}}\cdot 10^3=\)</h2>
+<div id="outline-container-org4df5aba" class="outline-2">
+<h2 id="org4df5aba"><span class="section-number-2">5</span> \(\frac{10^2}{10^{-5}}\cdot 10^3=\)</h2>
 </div>
 
 
-<div id="outline-container-org900f3a1" class="outline-2">
-<h2 id="org900f3a1"><span class="section-number-2">6</span> \(4 - 3[4-2(6-3)]\div 2 =\)</h2>
+<div id="outline-container-orgb4eee92" class="outline-2">
+<h2 id="orgb4eee92"><span class="section-number-2">6</span> \(4 - 3[4-2(6-3)]\div 2 =\)</h2>
 </div>
 
 
-<div id="outline-container-orgbf4940b" class="outline-2">
-<h2 id="orgbf4940b"><span class="section-number-2">7</span> \(1.2\times 10^6 + 7.8\times 10^5 =\)</h2>
+<div id="outline-container-orgd7bf5e3" class="outline-2">
+<h2 id="orgd7bf5e3"><span class="section-number-2">7</span> \(1.2\times 10^6 + 7.8\times 10^5 =\)</h2>
 </div>
 
 
-<div id="outline-container-org1f30bac" class="outline-2">
-<h2 id="org1f30bac"><span class="section-number-2">8</span> \(\frac{17x + 4y}{x+y} =\)</h2>
+<div id="outline-container-org69d3173" class="outline-2">
+<h2 id="org69d3173"><span class="section-number-2">8</span> \(\frac{17x + 4y}{x+y} =\)</h2>
 </div>
 
 
-<div id="outline-container-org205c141" class="outline-2">
-<h2 id="org205c141"><span class="section-number-2">9</span> If \(a = 2\), \(b=9\), \(c=10\); \(\frac{-b + \sqrt{b^2 - 4ac}}{2a} =\)</h2>
+<div id="outline-container-orgd196117" class="outline-2">
+<h2 id="orgd196117"><span class="section-number-2">9</span> If \(a = 2\), \(b=9\), \(c=10\); \(\frac{-b + \sqrt{b^2 - 4ac}}{2a} =\)</h2>
 <div class="outline-text-2" id="text-9">
 <script type = "text/tikz">
 
@@ -322,7 +322,7 @@ for the JavaScript code in this tag.
  \coordinate (A) at (3.464101,0);
  \coordinate (B) at (0,2);
  \draw (O)--(A)--(B)--cycle;
- \node at (A) {c$\sqrt{x+7}$}; 
+ \node at (A) {\Large 2(3)^(1/2)}; 
 
  %\tkzLabelSegment[below](A,O){\textbf{2$\sqrt{3}$\qquad\qquad}}
  %\tkzLabelSegment[left=2pt](O,B){\textbf{2}}
@@ -337,56 +337,56 @@ for the JavaScript code in this tag.
 <h2>These questions refer to the diagram above:</h2>
 </div>
 </div>
-<div id="outline-container-org0bb17c9" class="outline-2">
-<h2 id="org0bb17c9"><span class="section-number-2">10</span> \(\tan\theta =\)</h2>
+<div id="outline-container-org443f350" class="outline-2">
+<h2 id="org443f350"><span class="section-number-2">10</span> \(\tan\theta =\)</h2>
 </div>
 
-<div id="outline-container-orgbc830b5" class="outline-2">
-<h2 id="orgbc830b5"><span class="section-number-2">11</span> \(\sin\theta =\)</h2>
+<div id="outline-container-orgbd58b2d" class="outline-2">
+<h2 id="orgbd58b2d"><span class="section-number-2">11</span> \(\sin\theta =\)</h2>
 </div>
 
-<div id="outline-container-org3da7156" class="outline-2">
-<h2 id="org3da7156"><span class="section-number-2">12</span> \(\cos\theta =\)</h2>
+<div id="outline-container-org70eea76" class="outline-2">
+<h2 id="org70eea76"><span class="section-number-2">12</span> \(\cos\theta =\)</h2>
 </div>
 
-<div id="outline-container-org63f30da" class="outline-2">
-<h2 id="org63f30da"><span class="section-number-2">13</span> \(l =\)</h2>
+<div id="outline-container-org057ee2b" class="outline-2">
+<h2 id="org057ee2b"><span class="section-number-2">13</span> \(l =\)</h2>
 </div>
 
-<div id="outline-container-orgbd4a011" class="outline-2">
-<h2 id="orgbd4a011"><span class="section-number-2">14</span> \(\theta =\)</h2>
+<div id="outline-container-org727027b" class="outline-2">
+<h2 id="org727027b"><span class="section-number-2">14</span> \(\theta =\)</h2>
 <div class="outline-text-2" id="text-14">
 <h2>Solve the following for t :</h2>
 </div>
 </div>
 
-<div id="outline-container-orgd55acba" class="outline-2">
-<h2 id="orgd55acba"><span class="section-number-2">15</span> \(v = \frac{d}{t}\)</h2>
+<div id="outline-container-org59c1333" class="outline-2">
+<h2 id="org59c1333"><span class="section-number-2">15</span> \(v = \frac{d}{t}\)</h2>
 </div>
 
 
-<div id="outline-container-orgb099acb" class="outline-2">
-<h2 id="orgb099acb"><span class="section-number-2">16</span> \(x = vt + b\)</h2>
+<div id="outline-container-org17685df" class="outline-2">
+<h2 id="org17685df"><span class="section-number-2">16</span> \(x = vt + b\)</h2>
 </div>
 
 
-<div id="outline-container-org4cd1a8b" class="outline-2">
-<h2 id="org4cd1a8b"><span class="section-number-2">17</span> \(q + w = t^2yw\)</h2>
+<div id="outline-container-orgec02e1a" class="outline-2">
+<h2 id="orgec02e1a"><span class="section-number-2">17</span> \(q + w = t^2yw\)</h2>
 </div>
 
 
-<div id="outline-container-org2b7b3f9" class="outline-2">
-<h2 id="org2b7b3f9"><span class="section-number-2">18</span> \(\frac{2}{t} = \frac{1}{8} + \frac{1}{4}\)</h2>
+<div id="outline-container-orgf7728a4" class="outline-2">
+<h2 id="orgf7728a4"><span class="section-number-2">18</span> \(\frac{2}{t} = \frac{1}{8} + \frac{1}{4}\)</h2>
 </div>
 
 
-<div id="outline-container-orgd080abe" class="outline-2">
-<h2 id="orgd080abe"><span class="section-number-2">19</span> \(2 + 8t - 4.5t^2 = 0\)</h2>
+<div id="outline-container-orge7ae844" class="outline-2">
+<h2 id="orge7ae844"><span class="section-number-2">19</span> \(2 + 8t - 4.5t^2 = 0\)</h2>
 </div>
 
 
-<div id="outline-container-orgeb5bff6" class="outline-2">
-<h2 id="orgeb5bff6"><span class="section-number-2">20</span> \(v = 3 + \frac{1}{2}t\) and \(v-7 = 4t\) simultaneously.</h2>
+<div id="outline-container-org8b82481" class="outline-2">
+<h2 id="org8b82481"><span class="section-number-2">20</span> \(v = 3 + \frac{1}{2}t\) and \(v-7 = 4t\) simultaneously.</h2>
 <div class="outline-text-2" id="text-20">
 </div>
 </div>
