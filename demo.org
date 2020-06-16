@@ -7,6 +7,7 @@ embedded tikz respectively.
 
 * Tikz test
 Here's a tree, exported to both html and pdf.
+test2
 
 #+header: :file (by-backend (html "tree.svg") (t 'nil))
 #+header: :imagemagick
