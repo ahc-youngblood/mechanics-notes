@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-06-16 Tue 03:57 -->
+<!-- 2020-06-16 Tue 04:12 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>math-pretest :mechanics-probs:</title>
@@ -270,8 +270,8 @@ for the JavaScript code in this tag.
 <h1 class="title">math-pretest :mechanics-probs:</h1>
 
 
-<div id="outline-container-org9c41aa7" class="outline-2">
-<h2 id="org9c41aa7"><span class="section-number-2">1</span> Simplify the expressions below:</h2>
+<div id="outline-container-org8145fe1" class="outline-2">
+<h2 id="org8145fe1"><span class="section-number-2">1</span> Simplify the expressions below:</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>\((2x^2)^2=\)</li>
@@ -319,13 +319,13 @@ for the JavaScript code in this tag.
 
  <script type = "text/tikz">
 
-# #+name: trig-triangle
-# #+HEADER: :file ~/mechanics-notes/trig_triangle.svg :imagemagick yes
-# #+HEADER: :results output silent :headers '("\\usepackage{tikz}")
-# #+HEADER: :fit yes :imoutoptions -geometry 400 :iminoptions -density 600
-# #+BEGIN_SRC latex
-  %\begin{document}
-  %\begin{center} 
+//# #+name: trig-triangle
+//# #+HEADER: :file ~/mechanics-notes/trig_triangle.svg :imagemagick yes
+//# #+HEADER: :results output silent :headers '("\\usepackage{tikz}")
+//# #+HEADER: :fit yes :imoutoptions -geometry 400 :iminoptions -density 600
+//# #+BEGIN_SRC latex
+//  %\begin{document}
+//  %\begin{center} 
   \begin{tikzpicture}
   \coordinate (O) at (0,0);
   \coordinate (A) at (3.464101,0);
@@ -344,18 +344,18 @@ for the JavaScript code in this tag.
   \end{tikzpicture}
   %\end{center}
   %\end{document}
-# #+END_SRC
+//# #+END_SRC
 
-# #+results: trig_triangle
-# [[~/mechanics-notes/trig_triangle.svg]]
+//# #+results: trig_triangle
+//# [[~/mechanics-notes/trig_triangle.svg]]
 
  </script>
 </div>
 </div>
 
 
-<div id="outline-container-org52c81bf" class="outline-2">
-<h2 id="org52c81bf"><span class="section-number-2">2</span> These questions refer to the diagram above:}</h2>
+<div id="outline-container-org8675fe5" class="outline-2">
+<h2 id="org8675fe5"><span class="section-number-2">2</span> These questions refer to the diagram above:}</h2>
 <div class="outline-text-2" id="text-2">
 <ol class="org-ol">
 <li>\(\tan\theta =\)</li>
@@ -372,8 +372,8 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-org3f8e37e" class="outline-2">
-<h2 id="org3f8e37e"><span class="section-number-2">3</span> Solve the following for \(t\) :</h2>
+<div id="outline-container-orgcb9d711" class="outline-2">
+<h2 id="orgcb9d711"><span class="section-number-2">3</span> Solve the following for \(t\) :</h2>
 <div class="outline-text-2" id="text-3">
 <ol class="org-ol">
 <li>\(v = \frac{d}{t}\)</li>
