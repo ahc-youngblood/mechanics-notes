@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-06-23 Tue 07:39 -->
+<!-- 2020-06-23 Tue 16:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Meeting 4 Problems</title>
@@ -279,15 +279,15 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Meeting 4 Problems</h1>
 
-<div id="outline-container-org97ff93d" class="outline-2">
-<h2 id="org97ff93d"><span class="section-number-2">1</span> Jorstad Workbook 3.3</h2>
+<div id="outline-container-org77c747b" class="outline-2">
+<h2 id="org77c747b"><span class="section-number-2">1</span> Jorstad Workbook 3.3</h2>
 </div>
 
-<div id="outline-container-org1912ce5" class="outline-2">
-<h2 id="org1912ce5"><span class="section-number-2">2</span> Jorstad Workbook 3.7 (but with vector \(\vec{B}\) reversed).</h2>
+<div id="outline-container-org239ed34" class="outline-2">
+<h2 id="org239ed34"><span class="section-number-2">2</span> Jorstad Workbook 3.7 (but with vector \(\vec{B}\) reversed).</h2>
 </div>
-<div id="outline-container-orgda026a2" class="outline-2">
-<h2 id="orgda026a2"><span class="section-number-2">3</span> Jorstad Workbook 3.7\(\frac{1}{2}\)</h2>
+<div id="outline-container-org35e4748" class="outline-2">
+<h2 id="org35e4748"><span class="section-number-2">3</span> Jorstad Workbook 3.7\(\frac{1}{2}\)</h2>
 <div class="outline-text-2" id="text-3">
 <script type = "text/tikz">
 
@@ -296,26 +296,26 @@ for the JavaScript code in this tag.
  \coordinate (O) at (0,0);
  \coordinate (A) at (2,0);
  \coordinate (B) at (0,2);
- \draw (O)--(A)--(B)--cycle;
- \filldraw[thick,fill=gray!50] (O)--(A)--(B)--cycle; 
- \node at (A) {2(3)\^(1/2)}; 
- \node [left] at (O) {$\vec{O}_2$};
+ %\draw (O)--(A)--(B)--cycle;
+ %\filldraw[thick,fill=gray!50] (O)--(A)--(B)--cycle; 
+ %\node at (A) {2(3)\^(1/2)}; 
+ \node [above] at (1,1) {$\vec{A}$};
  \draw [->] (0,0)--(2,2);
 
- %\tkzLabelSegment[below](A,O){\textbf{2$\sqrt{3}$\qquad\qquad}}
- %\tkzLabelSegment[left=2pt](O,B){\textbf{2}}
- %\tkzLabelSegment[above right=-2pt](A,B){\textbf{$l$}}
+ \draw [->] (1,1)--(3.5981,3.5);
+ \node [below] at (2.3,1.75) {$\vec{B}$};
 
- %\tkzMarkRightAngle(A,O,B)% square angle here
+ \draw [->] (3,3)--(3,0.5);
+ \node [right] at (3,2.25) {$\vec{C}$};
 
- %\tkzMarkAngle(B,A,O)
- %\tkzLabelAngle[pos = 1.3](B,A,O){$\theta$}
+ \draw [->] (4,0)--(5,0)
+ \draw [->] (4,0)--(4,1)
  \end{tikzpicture}
 </script>
 </div>
 </div>
-<div id="outline-container-org81b6bbe" class="outline-2">
-<h2 id="org81b6bbe"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
+<div id="outline-container-org151c980" class="outline-2">
+<h2 id="org151c980"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
 </div>
 </div>
 </body>
