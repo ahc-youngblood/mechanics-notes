@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-06-23 Tue 07:17 -->
+<!-- 2020-06-23 Tue 07:21 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Meeting 4 Problems</title>
@@ -279,21 +279,21 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Meeting 4 Problems</h1>
 
-<div id="outline-container-org7d13be4" class="outline-2">
-<h2 id="org7d13be4"><span class="section-number-2">1</span> Jorstad Workbook 3.3</h2>
+<div id="outline-container-org40e0181" class="outline-2">
+<h2 id="org40e0181"><span class="section-number-2">1</span> Jorstad Workbook 3.3</h2>
 </div>
 
-<div id="outline-container-orgb7504b4" class="outline-2">
-<h2 id="orgb7504b4"><span class="section-number-2">2</span> Jorstad Workbook 3.7 (but with vector \(\vec{B}\) reversed).</h2>
+<div id="outline-container-orgd1dcd5b" class="outline-2">
+<h2 id="orgd1dcd5b"><span class="section-number-2">2</span> Jorstad Workbook 3.7 (but with vector \(\vec{B}\) reversed).</h2>
 </div>
-<div id="outline-container-orgddcc0f2" class="outline-2">
-<h2 id="orgddcc0f2"><span class="section-number-2">3</span> Jorstad Workbook 3.7\(\frac{1}{2}\)</h2>
+<div id="outline-container-orgf546cf1" class="outline-2">
+<h2 id="orgf546cf1"><span class="section-number-2">3</span> Jorstad Workbook 3.7\(\frac{1}{2}\)</h2>
 <div class="outline-text-2" id="text-3">
 <script type = "text/tikz">
 
  \begin{tikzpicture}[very thick, scale =3, font=\Huge]
 
- \tikzset{>=stealth[scale=3.0]};
+ \tikzset{>=stealth};
  \coordinate (O) at (0,0);
  \coordinate (A) at (2,0);
  \coordinate (B) at (0,2);
@@ -315,8 +315,8 @@ for the JavaScript code in this tag.
 </script>
 </div>
 </div>
-<div id="outline-container-org46f5ff4" class="outline-2">
-<h2 id="org46f5ff4"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
+<div id="outline-container-orgeed1fa0" class="outline-2">
+<h2 id="orgeed1fa0"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
 </div>
 </div>
 </body>
