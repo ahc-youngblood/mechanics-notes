@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-06-26 Fri 06:57 -->
+<!-- 2020-06-26 Fri 06:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Meeting 6 Problems</title>
+<title>Meeting  Problems</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="DESKTOP-08LO76D" />
 <style type="text/css">
@@ -281,16 +281,16 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Meeting 6 Problems</h1>
+<h1 class="title">Meeting  Problems</h1>
 
-<div id="outline-container-org9854d28" class="outline-2">
-<h2 id="org9854d28"><span class="section-number-2">1</span> Jorstad Workbook 3.9</h2>
+<div id="outline-container-org900f2bb" class="outline-2">
+<h2 id="org900f2bb"><span class="section-number-2">1</span> Jorstad Workbook 3.9</h2>
 </div>
-<div id="outline-container-org239a8fe" class="outline-2">
-<h2 id="org239a8fe"><span class="section-number-2">2</span> Jorstad Workbook 3.10</h2>
+<div id="outline-container-org0f9380a" class="outline-2">
+<h2 id="org0f9380a"><span class="section-number-2">2</span> Jorstad Workbook 3.10</h2>
 </div>
-<div id="outline-container-org5c243ce" class="outline-2">
-<h2 id="org5c243ce"><span class="section-number-2">3</span> Jorstad Workbook 3.13</h2>
+<div id="outline-container-orgb9dcadb" class="outline-2">
+<h2 id="orgb9dcadb"><span class="section-number-2">3</span> Jorstad Workbook 3.13</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 #+BEGIN_EXPORT html
@@ -323,27 +323,27 @@ for the JavaScript code in this tag.
 </p>
 </div>
 </div>
-<div id="outline-container-org0d11925" class="outline-2">
-<h2 id="org0d11925"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
+<div id="outline-container-org1723933" class="outline-2">
+<h2 id="org1723933"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orge44a25e" class="outline-3">
-<h3 id="orge44a25e"><span class="section-number-3">4.1</span> Find \(\vec{A}\cdot\vec{B}\) and \(\vec{B}\cdot\vec{C}\).</h3>
+<div id="outline-container-org20bf205" class="outline-3">
+<h3 id="org20bf205"><span class="section-number-3">4.1</span> Find \(\vec{A}\cdot\vec{B}\) and \(\vec{B}\cdot\vec{C}\).</h3>
 </div>
-<div id="outline-container-org4c36b9a" class="outline-3">
-<h3 id="org4c36b9a"><span class="section-number-3">4.2</span> Find \(\vec{A}\times\vec{B}\) and \(\vec{B}\times\vec{C}\).</h3>
+<div id="outline-container-orgf582bed" class="outline-3">
+<h3 id="orgf582bed"><span class="section-number-3">4.2</span> Find \(\vec{A}\times\vec{B}\) and \(\vec{B}\times\vec{C}\).</h3>
 </div>
-<div id="outline-container-orgd1da280" class="outline-3">
-<h3 id="orgd1da280"><span class="section-number-3">4.3</span> Use a dot product and trigonometry to find the angle between \(\vec{A}\) and \(\vec{B}\).</h3>
+<div id="outline-container-org2467753" class="outline-3">
+<h3 id="org2467753"><span class="section-number-3">4.3</span> Use a dot product and trigonometry to find the angle between \(\vec{A}\) and \(\vec{B}\).</h3>
 </div>
-<div id="outline-container-orga51e8a6" class="outline-3">
-<h3 id="orga51e8a6"><span class="section-number-3">4.4</span> Use a cross product and trigonometry to fine the angle between \(\vec{A}\) and \(\vec{C}\).</h3>
+<div id="outline-container-orgfa1e72d" class="outline-3">
+<h3 id="orgfa1e72d"><span class="section-number-3">4.4</span> Use a cross product and trigonometry to fine the angle between \(\vec{A}\) and \(\vec{C}\).</h3>
 </div>
-<div id="outline-container-orgd7910ca" class="outline-3">
-<h3 id="orgd7910ca"><span class="section-number-3">4.5</span> Calculate and explain what is different between \(\vec{A}\cdot(\vec{B}\times\vec{C})\) and \(\vec{A}\cdot(\vec{C}\times\vec{B})\).</h3>
+<div id="outline-container-orgf3c445d" class="outline-3">
+<h3 id="orgf3c445d"><span class="section-number-3">4.5</span> Calculate and explain what is different between \(\vec{A}\cdot(\vec{B}\times\vec{C})\) and \(\vec{A}\cdot(\vec{C}\times\vec{B})\).</h3>
 </div>
-<div id="outline-container-org1a6c676" class="outline-3">
-<h3 id="org1a6c676"><span class="section-number-3">4.6</span> Calculate and check whether \(\vec{A}\times(\vec{B}\times\vec{C})\) is the same as \((\vec{A}\times\vec{B})\times\vec{C}\). If they are different, are they different in the same way as the products in 4.5? If one way to think of vector cross products is as rotations, what does your result mean about the order in which you rotate things about different axes? Try exploring this with a book or other physical object.</h3>
+<div id="outline-container-org2578591" class="outline-3">
+<h3 id="org2578591"><span class="section-number-3">4.6</span> Calculate and check whether \(\vec{A}\times(\vec{B}\times\vec{C})\) is the same as \((\vec{A}\times\vec{B})\times\vec{C}\). If they are different, are they different in the same way as the products in 4.5? If one way to think of vector cross products is as rotations, what does your result mean about the order in which you rotate things about different axes? Try exploring this with a book or other physical object.</h3>
 </div>
 </div>
 </div>
