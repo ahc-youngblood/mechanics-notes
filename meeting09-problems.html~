@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-07-03 Fri 10:55 -->
+<!-- 2020-07-03 Fri 10:43 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Meeting 9 Problems</title>
@@ -288,36 +288,36 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Meeting 9 Problems</h1>
-<div id="outline-container-orga1e7171" class="outline-2">
-<h2 id="orga1e7171"><span class="section-number-2">1</span> Jorstad Workbook 2.35</h2>
+<div id="outline-container-org535d165" class="outline-2">
+<h2 id="org535d165"><span class="section-number-2">1</span> Jorstad Workbook 2.35</h2>
 </div>
 
-<div id="outline-container-org02662b6" class="outline-2">
-<h2 id="org02662b6"><span class="section-number-2">2</span> Jorstad Workbook 2.37</h2>
+<div id="outline-container-org62025a6" class="outline-2">
+<h2 id="org62025a6"><span class="section-number-2">2</span> Jorstad Workbook 2.37</h2>
 </div>
 
-<div id="outline-container-orgd61fae7" class="outline-2">
-<h2 id="orgd61fae7"><span class="section-number-2">3</span> Jorstad Workbook 2.47</h2>
+<div id="outline-container-orga600a9f" class="outline-2">
+<h2 id="orga600a9f"><span class="section-number-2">3</span> Jorstad Workbook 2.47</h2>
 </div>
 
-<div id="outline-container-org565951a" class="outline-2">
-<h2 id="org565951a"><span class="section-number-2">4</span> A ball is dropped from a height \(h\) at the same instant that another ball, directly below the first, is launched straight up from the ground with a velocity \(v_0\).</h2>
+<div id="outline-container-org19de83b" class="outline-2">
+<h2 id="org19de83b"><span class="section-number-2">4</span> A ball is dropped from a height \(h\) at the same instant that another ball, directly below the first, is launched straight up from the ground with a velocity \(v_i\).</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org8a9d66d" class="outline-3">
-<h3 id="org8a9d66d"><span class="section-number-3">4.1</span> At what time (in terms of \(v_0\) and \(h\) ) will the balls collide?</h3>
+<div id="outline-container-org5bb3ac8" class="outline-3">
+<h3 id="org5bb3ac8"><span class="section-number-3">4.1</span> At what time (in terms of \(v_0\) and \(h\) ) will the balls collide?</h3>
 </div>
 
-<div id="outline-container-orge05d15f" class="outline-3">
-<h3 id="orge05d15f"><span class="section-number-3">4.2</span> If one of the balls has zero velocity when they collide, what was the initial velocity \(v_0\) of the thrown ball (in terms of \(g\) and \(h\) )?</h3>
+<div id="outline-container-org0d16c92" class="outline-3">
+<h3 id="org0d16c92"><span class="section-number-3">4.2</span> If one of the balls has zero velocity when they collide, what was the initial velocity \(v_0\) of the thrown ball (in terms of \(g\) and \(h\) )?</h3>
 </div>
 
-<div id="outline-container-org019f995" class="outline-3">
-<h3 id="org019f995"><span class="section-number-3">4.3</span> Find an expression for the vertical position (y-coordinate) when the balls collide, both in general and in the situation of part (b).</h3>
+<div id="outline-container-org05b1eee" class="outline-3">
+<h3 id="org05b1eee"><span class="section-number-3">4.3</span> Find an expression for the vertical position (y-coordinate) when the balls collide, both in general and in the situation of part (b).</h3>
 </div>
 
-<div id="outline-container-org9addd3e" class="outline-3">
-<h3 id="org9addd3e"><span class="section-number-3">4.4</span> What is the magnitude of the velocity of the dropped ball (in terms of \(v_0\) ) just before the balls collide.</h3>
+<div id="outline-container-org96004f1" class="outline-3">
+<h3 id="org96004f1"><span class="section-number-3">4.4</span> What is the magnitude of the velocity of the dropped ball (in terms of \(v_0\) ) just before the balls collide.</h3>
 </div>
 </div>
 </div>
