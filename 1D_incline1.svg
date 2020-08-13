@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="no"?> 
-<?xml-stylesheet href="latex-wzSO4k.css" type="text/css"?> 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="302.51854pt" height="178.81348pt" viewBox="-0.59999 -7.49963 302.51854 178.81348 "> 
-<g transform="translate(0, 171.31384 ) scale(1,-1) translate(0,7.49963 )"> 
+<?xml-stylesheet href="latex-8MIbyC.css" type="text/css"?> 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="302.55501pt" height="177.23015pt" viewBox="-0.59999 -5.9163 302.55501 177.23015 "> 
+<g transform="translate(0, 171.31384 ) scale(1,-1) translate(0,5.9163 )"> 
 <g stroke="#000" fill="#000">
  <g stroke-width="0.4">
  <g stroke-width="1.2">
  <path d=" M 0.0 0.0 L 295.68457 0.0 L 0.0 170.71385 Z  " fill="none"/>
- <g transform="translate(292.78357,-4.16666)">
+ <g transform="translate(292.7471,-2.58333)">
  <g fill="#000">
- <text style="stroke:none" transform="scale(1,-1) translate(2.901,0)" text-anchor="middle"  font-size="10"> 
+ <text style="stroke:none" transform="scale(1,-1) translate(2.93747,0)" text-anchor="middle"  font-size="10"> 
 <g fill="#000">
- <g stroke="none"> <tspan font-family="cmmi" font-size="12">&#x03B8;</tspan></g> </g>
+ <g stroke="none"> <tspan font-family="cmr" font-size="12">a</tspan></g> </g>
  </text> 
 </g>
  </g>
  </g>
  </g>
  </g>
-                                                                 </g> 
+                                                                             </g> 
 </svg> 
