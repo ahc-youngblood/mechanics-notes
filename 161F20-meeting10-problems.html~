@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-08-31 Mon 10:23 -->
+<!-- 2020-09-09 Wed 10:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Meeting 7 Problems</title>
+<title>Meeting 10 Problems (Optional)</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -180,68 +180,7 @@
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 <script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
-<script src="tikzjax.js"></script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -288,63 +227,15 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
-<h1 class="title">Meeting 7 Problems</h1>
-
-<div id="outline-container-org7087f6f" class="outline-2">
-<h2 id="org7087f6f"><span class="section-number-2">1</span> Two cars (\(A\) and \(B\)) start at the same position with the same speed \(v_{ix}\). Car \(A\) maintains constant speed while car \(B\) decelerates with constant acceleration \(-a_x\). At the instant that \(B\) reaches a speed of \(0\), what is the ratio of distances traveled by \(A\) and \(B\).</h2>
+<h1 class="title">Meeting 10 Problems (Optional)</h1>
+<div id="outline-container-orgda72675" class="outline-2">
+<h2 id="orgda72675"><span class="section-number-2">1</span> Jorstad Workbook 5.41</h2>
 </div>
-<div id="outline-container-orgc2446a6" class="outline-2">
-<h2 id="orgc2446a6"><span class="section-number-2">2</span> Jorstad Workbook 4.12</h2>
-</div>
-<div id="outline-container-org443b24b" class="outline-2">
-<h2 id="org443b24b"><span class="section-number-2">3</span> A ball is thrown with speed \(v_i\) at an angle \(\theta\) with respect to horizontal from a point at a distance \(d\) from the base of a cliff of height \(h\). The ball lands just on the edge of the cliff.</h2>
-<div class="outline-text-2" id="text-3">
-</div>
-<div id="outline-container-orgf11b480" class="outline-3">
-<h3 id="orgf11b480"><span class="section-number-3">3.1</span> Find an expression for \(h\) in terms of \(d\), \(v_i\) and \(\theta\).</h3>
-</div>
-<div id="outline-container-org2b398c1" class="outline-3">
-<h3 id="org2b398c1"><span class="section-number-3">3.2</span> Special case: Find \(v_i\) in terms of \(\theta\) if \(h=d=l\).</h3>
-</div>
-<div id="outline-container-orgd521890" class="outline-3">
-<h3 id="orgd521890"><span class="section-number-3">3.3</span> Extra special case: Find \(v_i\) and \(\theta\) if \(h=d=l\) and the ball hits the top of the cliff traveling horizontally.</h3>
-</div>
-</div>
-<div id="outline-container-orga609f88" class="outline-2">
-<h2 id="orga609f88"><span class="section-number-2">4</span> Jorstad Workbook 4.14</h2>
-</div>
-
-<div id="outline-container-org05254f3" class="outline-2">
-<h2 id="org05254f3"><span class="section-number-2">5</span> Jorstad Workbook 4.13</h2>
-</div>
-
-<div id="outline-container-orge893b56" class="outline-2">
-<h2 id="orge893b56"><span class="section-number-2">6</span> Openstax Problem 4.40</h2>
+<div id="outline-container-orge303e12" class="outline-2">
+<h2 id="orge303e12"><span class="section-number-2">2</span> Jorstad Workbook 5.42</h2>
 </div>
 </div>
 </body>
