@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-09-14 Mon 13:52 -->
+<!-- 2020-09-11 Fri 01:28 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Meeting 7 Problems (Optional)</title>
+<title>Meeting 11 Problems</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -227,21 +227,48 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
-<h1 class="title">Meeting 7 Problems (Optional)</h1>
-<div id="outline-container-org9243f17" class="outline-2">
-<h2 id="org9243f17"><span class="section-number-2">1</span> Openstax College Physics 4.16</h2>
+<h1 class="title">Meeting 11 Problems</h1>
+<div id="outline-container-org1e27815" class="outline-2">
+<h2 id="org1e27815"><span class="section-number-2">1</span> A fish is hooked on a line that is wound around the spool of a fishing reel. The reel has a mass of 652 g and a diameter of 10 cm. After 5 seconds, the reel is spinning with an angular velocity of 306 rad/s  Assuming that the fish was pulling on the line with a constant force, what was the magnitude of this force?</h2>
 </div>
-<div id="outline-container-org58f5145" class="outline-2">
-<h2 id="org58f5145"><span class="section-number-2">2</span> Openstax College Physics 4.19</h2>
+<div id="outline-container-orge0d8c23" class="outline-2">
+<h2 id="orge0d8c23"><span class="section-number-2">2</span> An object of mass \(m_1\) is attached to a massless cord of length \(L\) which is wrapped completely around a solid, disk-shaped pendulum of radius \(R\) and mass \(m_2\).</h2>
+<div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgebeff99" class="outline-2">
-<h2 id="orgebeff99"><span class="section-number-2">3</span> Openstax College Physics 4.30</h2>
+<div id="outline-container-org20d862d" class="outline-3">
+<h3 id="org20d862d"><span class="section-number-3">2.1</span> What is the tension in the cord as it is unwinding?</h3>
 </div>
-<div id="outline-container-org198677a" class="outline-2">
-<h2 id="org198677a"><span class="section-number-2">4</span> Openstax College Physics 4.41</h2>
+<div id="outline-container-orga952ac5" class="outline-3">
+<h3 id="orga952ac5"><span class="section-number-3">2.2</span> What is the angular velocity of the pulley when the cord has completely unwound?</h3>
+</div>
+<div id="outline-container-orgd40b904" class="outline-3">
+<h3 id="orgd40b904"><span class="section-number-3">2.3</span> If instead there is no attached mass but the cord itself has a total mass \(m_1\), what will the angular velocity of the pulley be when the cord has fully unwound?</h3>
+</div>
 </div>
 </div>
 </body>
