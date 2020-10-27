@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-10-26 Mon 16:30 -->
+<!-- 2020-10-26 Mon 16:29 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Kinematics Notes</title>
@@ -118,16 +118,16 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Kinematics Notes</h1>
 <p>
-<a id="org58f8c0c"></a>
+<a id="orgb4a72f3"></a>
 </p>
 
 
 <p>
-\(a+c+d+e\)
+\(a+c\)
 </p>
 
-<div id="outline-container-org067ace3" class="outline-2">
-<h2 id="org067ace3"><span class="section-number-2">1</span> Another test \(\LaTeX\)</h2>
+<div id="outline-container-org22d2c9b" class="outline-2">
+<h2 id="org22d2c9b"><span class="section-number-2">1</span> Another test \(\LaTeX\)</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 \(\LaTeX\) test with \(ax+b\) and 
@@ -142,8 +142,8 @@ Begin by considering a point floating in space. Assign to this point a mass \(m\
 </div>
 </div>
 
-<div id="outline-container-org05c4961" class="outline-2">
-<h2 id="org05c4961"><span class="section-number-2">2</span> "Live'' display</h2>
+<div id="outline-container-org3bd0091" class="outline-2">
+<h2 id="org3bd0091"><span class="section-number-2">2</span> "Live'' display</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Use livejs.js: github.com/Q42/LiveJS. Via &lt;script type="text/javascript" src="<a href="http:/livejs.com/live.js">http:/livejs.com/live.js</a>"&gt;&lt;/script&gt; Requires a local server such as the one started in shell by

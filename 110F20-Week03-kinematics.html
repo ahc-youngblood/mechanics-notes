@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-10-26 Mon 20:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kinematics Notes (1D)</title>
+<meta name="generator" content="Org mode" />
+<script type="text/javascript" src="http:/livejs.com/live.js"></script>
+<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.3}, svg: {scale: 1.3}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Kinematics Notes (1D)</h1>
+<p>
+<a id="org0fff5ef"></a>
+</p>
+
+<div id="outline-container-orga17b343" class="outline-2">
+<h2 id="orga17b343"><span class="section-number-2">1</span> 1D Vector Quantities</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+\[
+\vec{\Delta x} \qquad \mathrm{displacement} \qquad \Delta x
+\]
+\[
+\frac{\vec{\Delta x}}{\Delta t} = \bar{\vec{v}} \qquad \mathrm{velocity} \qquad \bar{v} = \frac{\Delta x}{\Delta t}
+\]
+\[
+\frac{\Delta(\frac{\vec{\Delta x}}{\Delta t})}{\Delta t} = \frac{\Delta \vec{v}}{\Delta t} = \vec{a} \qquad \mathrm{acceleration} \qquad a = \frac{\Delta v}{\Delta t}
+\]
+</p>
+
+<p>
+In 1D even though we have vectors all are along \(\hat{i}\). \(\Delta q\) represents \(q_f - q_i\) or \(q(t) - q(0)\) if \(\Delta t = t - 0\)
+</p>
+</div>
+
+<div id="outline-container-orgfd72590" class="outline-3">
+<h3 id="orgfd72590"><span class="section-number-3">1.1</span> Displacement \(\vec{\Delta x}\): Distance (in a direction) traveled by an object.</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Distance, speed, and time. Original way people usually see it is \(d = vt\) or distance = rate \(\times\) time. However, consider a round trip with the farthest point a distance \(l\) away. The total distance traveled is 2\(l\) but the net or total displacement is \(l\hat{i} - l\hat{i} =\vec{0}\). A good analogy is the displacement is like separation on a map while distance is what would be read by a car's odometer for a trip.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3ebeb83" class="outline-3">
+<h3 id="org3ebeb83"><span class="section-number-3">1.2</span> Velocity \(\vec{v}\): Rate of change of displacement with respect to time.</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+\(\bar{v} = v\) if \(v\) is constant. Because then 
+\[\frac{v(t_1) + v(t_2)}{2} = v\] 
+no matter what \(t_1\) and \(t_2\) are. Can we have a constant velocity \(v\) and still have a round trip? Answer: No, you would have to switch the sign of \(v\).
+</p>
+
+<p>
+Now, if \(v\) is constant, then we can say
+\[
+\Delta x = vt \qquad \mathrm{or} \qquad {\Delta \vec{x}} = \vec{v}t
+\]
+</p>
+
+<p>
+This was our first kinematic equation. Kinematics is about finding the relations among displacement, time, velocity, and acceleration. So that if I tell you when and where something started and its initial velocity and acceleration and a time when I want to know where it will be: you can answer.
+</p>
+
+<p>
+Example: I was at position 0m and I arrived at a position 7m to the right after 4 seconds. What was my velocity?
+Answer: \(\frac{\Delta x}{t} = \frac{7m}{4s}(\hat{i}) = \frac{7}{4}\frac{\mathrm{m}}{\mathrm{s}}(\hat{i})\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd0d088b" class="outline-3">
+<h3 id="orgd0d088b"><span class="section-number-3">1.3</span> Acceleration \(\vec{a}\): Rate of change of displacement with respect to time.</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+\[
+\mathrm{1D:}\qquad \bar{a} = \frac{\Delta v}{\Delta t} = \frac{v(t) - v(0)}{t} = \frac{v(t) - v_i}{t} = \frac{v(t) - v_0}{t} 
+\]
+</p>
+
+<p>
+We will always have \(a\) constant so \(a = \bar{a}\). Now, 
+\[
+v(t) = v(0) + at
+\]
+This is our second kinematic equation. Example: If we started with a velocity \(v(0)=\) +15m/s and we come to a stop (\(v=\) 0m/s) in 3 seconds, what was our acceleration?
+</p>
+
+<p>
+Answer: \(a = \frac{v(t) - v(0)}{t} = \frac{0\mathrm{m/s}-15\mathrm{m/s}}{3\mathrm{s}} = -5 \mathrm{m/s}^2\)
+</p>
+
+<p>
+\[
+\mathrm{Also:} \qquad v^2 - v_i^2 = 2a\Delta x
+\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-org03a0814" class="outline-3">
+<h3 id="org03a0814"><span class="section-number-3">1.4</span> Back to displacement. This time with changing \(v\), but constant \(a\)</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Put equation for \(v\) as a function of \(t\) into equation for \(v\) as a function of \(\Delta x\) and solve for \(\Delta x\):
+</p>
+
+<p>
+\[
+\Delta x = v_it + \frac{1}{2}at^2
+\]
+</p>
+
+<p>
+\[
+x_f = x_i + v_it + \frac{1}{2}at^2
+\]
+</p>
+
+<p>
+This is our last kinematic equation
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga799f75" class="outline-3">
+<h3 id="orga799f75"><span class="section-number-3">1.5</span> Free Fall: Motion influenced only by gravitational acceleration.</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+\(g\) = 9.81 m/s\(^2\)
+</p>
+
+<p>
+Acceleration due to gravity is \(g (-\hat{j})\). Notice that \(g\) itself is <span class="underline">not</span> negative! 
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
