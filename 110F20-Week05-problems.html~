@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-09 Mon 06:10 -->
+<!-- 2020-11-09 Mon 08:31 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 5 Problems</title>
@@ -180,7 +180,7 @@
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
+<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.0}, svg: {scale: 1.0}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/><script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -231,38 +231,38 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Week 5 Problems</h1>
-<div id="outline-container-orga4758a2" class="outline-2">
-<h2 id="orga4758a2"><span class="section-number-2">1</span> Jorstad Workbook 5.3</h2>
+<div id="outline-container-orgdcdbb2b" class="outline-2">
+<h2 id="orgdcdbb2b"><span class="section-number-2">1</span> Jorstad Workbook 5.3</h2>
 </div>
-<div id="outline-container-orgd16dc92" class="outline-2">
-<h2 id="orgd16dc92"><span class="section-number-2">2</span> Jorstad Workbook 5.6</h2>
+<div id="outline-container-org4d09fe7" class="outline-2">
+<h2 id="org4d09fe7"><span class="section-number-2">2</span> Jorstad Workbook 5.6</h2>
 </div>
-<div id="outline-container-org6694bf3" class="outline-2">
-<h2 id="org6694bf3"><span class="section-number-2">3</span> Jorstad Workbook 5.26</h2>
+<div id="outline-container-orgab9eadb" class="outline-2">
+<h2 id="orgab9eadb"><span class="section-number-2">3</span> Jorstad Workbook 5.26</h2>
 </div>
-<div id="outline-container-orgf260178" class="outline-2">
-<h2 id="orgf260178"><span class="section-number-2">4</span> Jorstad Workbook 5.9</h2>
+<div id="outline-container-orgaadd9e2" class="outline-2">
+<h2 id="orgaadd9e2"><span class="section-number-2">4</span> Jorstad Workbook 5.9</h2>
 </div>
-<div id="outline-container-org43e5fed" class="outline-2">
-<h2 id="org43e5fed"><span class="section-number-2">5</span> Jorstad Workbook 5.27</h2>
+<div id="outline-container-orga908f74" class="outline-2">
+<h2 id="orga908f74"><span class="section-number-2">5</span> Jorstad Workbook 5.27</h2>
 </div>
-<div id="outline-container-orgf017af4" class="outline-2">
-<h2 id="orgf017af4"><span class="section-number-2">6</span> Jorstad Workbook 5.28</h2>
+<div id="outline-container-orgf9980ea" class="outline-2">
+<h2 id="orgf9980ea"><span class="section-number-2">6</span> Jorstad Workbook 5.28</h2>
 </div>
-<div id="outline-container-org75ff2fb" class="outline-2">
-<h2 id="org75ff2fb"><span class="section-number-2">7</span> Jorstad Workbook 5.39 (a),(b)</h2>
+<div id="outline-container-orge5e2751" class="outline-2">
+<h2 id="orge5e2751"><span class="section-number-2">7</span> Jorstad Workbook 5.39 (a),(b)</h2>
 </div>
-<div id="outline-container-orgc5250a3" class="outline-2">
-<h2 id="orgc5250a3"><span class="section-number-2">8</span> Jorstad Workbook 5.31, Also answer: If the angle \(\theta =0\) and the mass \(m\) is hanging over the edge of a table while \(3m\) rests on the top of the table, what are the accelerations of each of the masses?</h2>
+<div id="outline-container-org77bc5c5" class="outline-2">
+<h2 id="org77bc5c5"><span class="section-number-2">8</span> Jorstad Workbook 5.31, Also answer: If the angle \(\theta =0\) and the mass \(m\) is hanging over the edge of a table while \(3m\) rests on the top of the table, what are the accelerations of each of the masses?</h2>
 </div>
-<div id="outline-container-orgbbc2b76" class="outline-2">
-<h2 id="orgbbc2b76"><span class="section-number-2">9</span> Jorstad Workbook 5.9</h2>
+<div id="outline-container-orgfeda7c6" class="outline-2">
+<h2 id="orgfeda7c6"><span class="section-number-2">9</span> Jorstad Workbook 5.9</h2>
 </div>
-<div id="outline-container-org5b24586" class="outline-2">
-<h2 id="org5b24586"><span class="section-number-2">10</span> Jorstad Workbook 5.10</h2>
+<div id="outline-container-orgb1f43c3" class="outline-2">
+<h2 id="orgb1f43c3"><span class="section-number-2">10</span> Jorstad Workbook 5.10</h2>
 </div>
-<div id="outline-container-orgb378e9d" class="outline-2">
-<h2 id="orgb378e9d"><span class="section-number-2">11</span> Jorstad Workbook 5.34</h2>
+<div id="outline-container-org036f9c3" class="outline-2">
+<h2 id="org036f9c3"><span class="section-number-2">11</span> Jorstad Workbook 5.34</h2>
 </div>
 </div>
 </body>
