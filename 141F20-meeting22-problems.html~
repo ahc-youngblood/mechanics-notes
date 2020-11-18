@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-16 Mon 14:01 -->
+<!-- 2020-11-18 Wed 09:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Instructions/Modifications for Buoyancy Lab</title>
+<title>Meeting 22 Problems</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -179,8 +179,8 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="latex.css"/>
-<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.3}, svg: {scale: 1.3}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.0}, svg: {scale: 1.0}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -230,71 +230,21 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Instructions/Modifications for Buoyancy Lab</h1>
-<p>
-This document consists mostly of modifications to the posted online laboratory by Melissa Butner of Eastern Tennessee State University 
-</p>
-
-<p>
-<a href="https://faculty.etsu.edu/lutter/courses/phys2011/Buoyancy_Online_Lab.pdf">https://faculty.etsu.edu/lutter/courses/phys2011/Buoyancy_Online_Lab.pdf</a>  
-Please download this .pdf form, fill it out for the lab and upload it to the lab assignment. You may be able to do this in your browser or you may need to download the Adobe Reader app. If using your browser (it works in Chrome on a desktop), be careful, if the page is reloaded before you save, you will lose your work and have to start over. Another good approach is to record information and work on paper and fill out the form at the end. 
-</p>
-
-<p>
-Modifications are needed because the original lab PHET from the University of Colorado requires Flash. Instead, we will use a similar interface developed by PBS:
-</p>
-
-<p>
-<a href="https://ca.pbslearningmedia.org/resource/arct15-sci-densitylab/density-lab/">https://ca.pbslearningmedia.org/resource/arct15-sci-densitylab/density-lab/</a>
-</p>
-
-<p>
-The modifications are as follows:
-</p>
-
-<div id="outline-container-orgab83ad9" class="outline-2">
-<h2 id="orgab83ad9"><span class="section-number-2">1</span> Table 1:</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-Instead of setting them, look up and record the densities of the listed fluids. Be careful of units.
-</p>
-
-<p>
-For "Predict if the Object Sinks or Floats", We will not be able to set the masses of the objects, so where the form asks you to do this record the mass as determined with the simulated scale instead. Also, it is not possible to set or directly measure the volume of the objects. Fortunately, what is important is the fraction of the volume submerged which is well captured by the fraction of the height that is submerged, therefore record the approximate total height in terms of marks on the side of the fluid container. Important: Since we are using heights, it matters which way the object is oriented, so make sure you measure the height in the same way that you will have the object oriented when you drop it in the container. Also we have to switch some of the materials. So in summary: 
-</p>
+<h1 class="title">Meeting 22 Problems</h1>
+<div id="outline-container-org836bcfe" class="outline-2">
+<h2 id="org836bcfe"><span class="section-number-2">1</span> Openstax College Physics Problem 11.55(a)</h2>
 </div>
+<div id="outline-container-org84cbe23" class="outline-2">
+<h2 id="org84cbe23"><span class="section-number-2">2</span> Openstax College Physics Problem 11.59</h2>
 </div>
-
-<div id="outline-container-org1a62ff6" class="outline-2">
-<h2 id="org1a62ff6"><span class="section-number-2">2</span> Table 2:</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-Replace Styrofoam with Foam. Replace Brick with Iron. Replace Aluminum with Rubber.
-Record the mass from the scale (in air) rather than setting it. Record object height (in container markings) in the Volume column. Wait for the \(\rho_o\) determination until later in the lab.   
-</p>
+<div id="outline-container-org854c849" class="outline-2">
+<h2 id="org854c849"><span class="section-number-2">3</span> Openstax College Physics Problem 11.64</h2>
 </div>
+<div id="outline-container-orgfbf0a7b" class="outline-2">
+<h2 id="orgfbf0a7b"><span class="section-number-2">4</span> Openstax College Physics Problem 12.6</h2>
 </div>
-
-<div id="outline-container-org84edba4" class="outline-2">
-<h2 id="org84edba4"><span class="section-number-2">3</span> Table 3:</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-Along with your predictions, set the density of the fluid to the correct values and try the combinations out. If your prediction was correct, add a "C" to your entry, if incorrect add an "I".
-</p>
-
-<p>
-For "Buoyant Force", Record the volume of the fluid with no object inside (listed next to the container). Don't forget to set the fluid to be water.
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgc525e7a" class="outline-2">
-<h2 id="orgc525e7a"><span class="section-number-2">4</span> Table 4:</h2>
-<div class="outline-text-2" id="text-4">
-<p>
-Don't forget that weight is a force and therefore has units of Newtons. Now that you know the volume of water displaced vs the fraction of volume submerged (determined via the fraction of height submerged), you can go back to Table 2 and fill in the \(\rho_o\) column.
-</p>
-</div>
+<div id="outline-container-orgdf52d71" class="outline-2">
+<h2 id="orgdf52d71"><span class="section-number-2">5</span> Openstax College Physics Problem 12.20</h2>
 </div>
 </div>
 </body>

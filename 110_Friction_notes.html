@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-16 Mon 14:01 -->
+<!-- 2020-11-18 Wed 07:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Instructions/Modifications for Buoyancy Lab</title>
+<title>Notes on Friction</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -179,7 +179,7 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="latex.css"/>
+</script><link rel="stylesheet" type="text/css" href="latex.css"/>
 <script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.3}, svg: {scale: 1.3}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript">
 /*
@@ -230,70 +230,106 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Instructions/Modifications for Buoyancy Lab</h1>
-<p>
-This document consists mostly of modifications to the posted online laboratory by Melissa Butner of Eastern Tennessee State University 
-</p>
-
-<p>
-<a href="https://faculty.etsu.edu/lutter/courses/phys2011/Buoyancy_Online_Lab.pdf">https://faculty.etsu.edu/lutter/courses/phys2011/Buoyancy_Online_Lab.pdf</a>  
-Please download this .pdf form, fill it out for the lab and upload it to the lab assignment. You may be able to do this in your browser or you may need to download the Adobe Reader app. If using your browser (it works in Chrome on a desktop), be careful, if the page is reloaded before you save, you will lose your work and have to start over. Another good approach is to record information and work on paper and fill out the form at the end. 
-</p>
-
-<p>
-Modifications are needed because the original lab PHET from the University of Colorado requires Flash. Instead, we will use a similar interface developed by PBS:
-</p>
-
-<p>
-<a href="https://ca.pbslearningmedia.org/resource/arct15-sci-densitylab/density-lab/">https://ca.pbslearningmedia.org/resource/arct15-sci-densitylab/density-lab/</a>
-</p>
-
-<p>
-The modifications are as follows:
-</p>
-
-<div id="outline-container-orgab83ad9" class="outline-2">
-<h2 id="orgab83ad9"><span class="section-number-2">1</span> Table 1:</h2>
+<h1 class="title">Notes on Friction</h1>
+<div id="outline-container-org3172aa5" class="outline-2">
+<h2 id="org3172aa5"><span class="section-number-2">1</span> Not like other forces: Behaves the most like Normal force.</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-Instead of setting them, look up and record the densities of the listed fluids. Be careful of units.
+Like the normal because it only shows up as a reaction. Unlike normal force it has a maximum value: 
+\[
+F_{fr,max} = \mu F_N
+\]
+Force also needs a direction. \(\vec{F}_{fr}\) points in the direction that opposes motion. 
 </p>
 
 <p>
-For "Predict if the Object Sinks or Floats", We will not be able to set the masses of the objects, so where the form asks you to do this record the mass as determined with the simulated scale instead. Also, it is not possible to set or directly measure the volume of the objects. Fortunately, what is important is the fraction of the volume submerged which is well captured by the fraction of the height that is submerged, therefore record the approximate total height in terms of marks on the side of the fluid container. Important: Since we are using heights, it matters which way the object is oriented, so make sure you measure the height in the same way that you will have the object oriented when you drop it in the container. Also we have to switch some of the materials. So in summary: 
+<b>Hint:</b> Figure out motion without friction first, then include friction.
 </p>
+
+<p>
+Also, there are two "kinds" of friction, one for objects that are already moving (using \(\mu_k\) for the maximum &#x2013; but it's always at maximum if it's moving). Another is for objects that are stationary (not yet moving), which uses \(\mu_s\) for the maximum magnitude.
+</p>
+
+<p>
+What is the magnitude of static friction if it is not at its maximum value? It will always be the same as is necessary to oppose the sum of the other forces in the system. If only one force \(F\) is present 
+</p>
+
+\begin{align}
+F < F_{fr,max,static} &\Rightarrow F_{fr} = F; \quad a=0\\
+F > \mu_sF_N &\Rightarrow F_{fr} = \mu_kF_N; \quad a = \frac{F-\mu_kF_N}{m}
+\end{align} 
+
+<p>
+Friction is a surface force, have to consider the component of the force parallel to the surface. Normal force can only act at surface and only perpendicular to it. Friction can only act at a surface and only parallel to it.
+</p>
+
+<p>
+Pushing or pulling on a flat surface but with the force at an angle \(\theta\) to the surface, then we only care about \(F\cos\theta\) component (for friction directly). However, we still need the vertical component. Say that I want to find the maximum force I can apply before the object starts "slipping" 
+</p>
+
+\begin{align}
+F_{max}\cos\theta &= \mu_s F_N\\
+&= \mu_s (mg \pm F_{max}\sin\theta)\\
+F_{max}\cos\theta \mp F_{max}\sin\theta &=\mu_smg\\
+F_{max} &= \frac{\mu_s mg}{cos\theta \mp \sin\theta}  
+\end{align}
+
+<p>
+Similar application of trignometry comes up if we want to figure out the <b><b>angle</b></b> at which an object will start slipping in the absence of any applied forces.
+</p>
+
+\begin{align}
+F_N &= mg\cos\theta_{max}\\
+F_{fr} &= \mu_smg\cos\theta_{max}\\
+\mu_smg\cos\theta_{max} &= mg\sin\theta_{max}\\
+\mu_s &= \tan\theta_{max}\\
+\theta_{max} &= \tan^{-1}\mu_s
+\end{align}
+
+<p>
+Now, what if an additional force \(F\) is applied to the object on the incline? What with the maximum angle be then? 
+</p>
+\begin{align}
+F_N &= mg\cos\theta_{max} \pm F\sin\phi\\
+F_{fr} &= \mu_s(mg\cos\theta_{max}\pm F\sin\phi)\\
+\mu_s(mg\cos\theta_{max}\pm F\sin\phi) &= mg\sin\theta_{max} - F\cos\phi\\
+F(\cos\phi \pm \sin\phi) &= mg(\sin\theta_{max} - \mu_s\cos\theta_{max})   
+\end{align}
 </div>
 </div>
 
-<div id="outline-container-org1a62ff6" class="outline-2">
-<h2 id="org1a62ff6"><span class="section-number-2">2</span> Table 2:</h2>
+<div id="outline-container-org2bf8092" class="outline-2">
+<h2 id="org2bf8092"><span class="section-number-2">2</span> Mass \(m_1\) pulled by another mass \(m_2\) freely hanging over a pulley.</h2>
 <div class="outline-text-2" id="text-2">
-<p>
-Replace Styrofoam with Foam. Replace Brick with Iron. Replace Aluminum with Rubber.
-Record the mass from the scale (in air) rather than setting it. Record object height (in container markings) in the Volume column. Wait for the \(\rho_o\) determination until later in the lab.   
-</p>
-</div>
-</div>
-
-<div id="outline-container-org84edba4" class="outline-2">
-<h2 id="org84edba4"><span class="section-number-2">3</span> Table 3:</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-Along with your predictions, set the density of the fluid to the correct values and try the combinations out. If your prediction was correct, add a "C" to your entry, if incorrect add an "I".
-</p>
+\begin{align}
+m_2g-F_T &= m_2a\\
+F_T - F_{fr} &= m_1a 
+\end{align}
 
 <p>
-For "Buoyant Force", Record the volume of the fluid with no object inside (listed next to the container). Don't forget to set the fluid to be water.
+To find maximum possible \(m_2\) before the system begins to move: 
 </p>
-</div>
-</div>
+\begin{align}
+F_{fr} &= \mu_sF_N = \mu_sm_1g\\
+\end{align}
 
-<div id="outline-container-orgc525e7a" class="outline-2">
-<h2 id="orgc525e7a"><span class="section-number-2">4</span> Table 4:</h2>
-<div class="outline-text-2" id="text-4">
+\begin{align}
+m_2g-F_T &= 0\\
+F_T - \mu_sm_1g &= 0\\
+m_2g - \mu_sm_1g &=0\\
+m_2 &= \mu_sm_1
+\end{align}
+
 <p>
-Don't forget that weight is a force and therefore has units of Newtons. Now that you know the volume of water displaced vs the fraction of volume submerged (determined via the fraction of height submerged), you can go back to Table 2 and fill in the \(\rho_o\) column.
+To find the acceleration once the system begins to move:
 </p>
+
+\begin{align}
+m_2g-F_T &= m_2a\\
+F_T - \mu_km_1g &= m_1a\\
+m_2g - \mu_km_1g &= (m_1+m_2)a\\
+\frac{m_2 - \mu_km_1}{m_1+m_2}g &= a 
+\end{align}
 </div>
 </div>
 </div>
