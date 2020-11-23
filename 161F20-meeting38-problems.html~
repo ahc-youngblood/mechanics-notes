@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-22 Sun 19:41 -->
+<!-- 2020-11-20 Fri 09:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Notes on Friction</title>
+<title>Meeting 38 Problems</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -179,8 +179,8 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<script type="text/javascript" src="live.js"></script><link rel="stylesheet" type="text/css" href="latex.css"/>
-<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.3}, svg: {scale: 1.3}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.0}, svg: {scale: 1.0}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -230,139 +230,21 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Notes on Friction</h1>
-<div id="outline-container-org00c0ae2" class="outline-2">
-<h2 id="org00c0ae2"><span class="section-number-2">1</span> Not like other forces: Behaves the most like Normal force.</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-Like the normal because it only shows up as a reaction. Unlike normal force it has a maximum value: 
-\[
-F_{fr,max} = \mu F_N
-\]
-Force also needs a direction. \(\vec{F}_{fr}\) points in the direction that opposes motion. 
-</p>
-
-<p>
-<b>Hint:</b> Figure out motion without friction first, then include friction.
-</p>
-
-<p>
-Also, there are two "kinds" of friction, one for objects that are already moving (using \(\mu_k\) for the maximum &#x2013; but it's always at maximum if it's moving). Another is for objects that are stationary (not yet moving), which uses \(\mu_s\) for the maximum magnitude.
-</p>
-
-<p>
-What is the magnitude of static friction if it is not at its maximum value? It will always be the same as is necessary to oppose the sum of the other forces in the system. If only one force \(F\) is present 
-</p>
-
-\begin{align}
-F < F_{fr,max,static} &\Rightarrow F_{fr} = F; \quad a=0\\
-F > \mu_sF_N &\Rightarrow F_{fr} = \mu_kF_N; \quad a = \frac{F-\mu_kF_N}{m}
-\end{align} 
-
-<p>
-Friction is a surface force, have to consider the component of the force parallel to the surface. Normal force can only act at surface and only perpendicular to it. Friction can only act at a surface and only parallel to it.
-</p>
-
-<svg height="200" width = "1000">
-   <defs>
-   <!-- arrowhead marker definition -->
-   <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
-       markerWidth="6" markerHeight="6"
-       orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 Z"/>
-   </marker>
-   </defs>
-   <path d ="M150 200 L600 200 M300 198 L300 150 L400 150 L400 198 L300 198 Z"
-   fill="none" stroke="black" stroke-width="3"/>
-   <!-- Force link with arrowhead and label-->
-   <polyline points ="400,150 500,100"
-   fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
-   <foreignObject x="475" y="75" width="30" height="35">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-     $F$
-    </div>
-   </foreignObject>
-   <!-- dashed horizontal line-->
-   <polyline points ="400,150 550,150"
-   fill="none" stroke="black" stroke-width="2" stroke-dasharray="10,10"/>
-   <!-- angle arc with label -->
-   <path d= "M425 136 A5 5 0 1 1 430,150"
-   fill="none" stroke="black" stroke-width="2"/>
-   <foreignObject x="440" y="125" width="30" height="35">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-     $\theta$
-    </div>
-   </foreignObject>
-</svg>
-
-<p>
-Pushing or pulling on a flat surface but with the force at an angle \(\theta\) to the surface, then we only care about \(F\cos\theta\) component (for friction directly). However, we still need the vertical component. Say that I want to find the maximum force I can apply before the object starts "slipping" 
-</p>
-
-\begin{align}
-F_{max}\cos\theta &= \mu_s F_N\\
-&= \mu_s (mg \pm F_{max}\sin\theta)\\
-F_{max}\cos\theta \mp F_{max}\sin\theta &=\mu_smg\\
-F_{max} &= \frac{\mu_s mg}{cos\theta \mp \sin\theta}  
-\end{align}
-
-<p>
-Similar application of trignometry comes up if we want to figure out the <b><b>angle</b></b> at which an object will start slipping in the absence of any applied forces.
-</p>
-
-\begin{align}
-F_N &= mg\cos\theta_{max}\\
-F_{fr} &= \mu_smg\cos\theta_{max}\\
-\mu_smg\cos\theta_{max} &= mg\sin\theta_{max}\\
-\mu_s &= \tan\theta_{max}\\
-\theta_{max} &= \tan^{-1}\mu_s
-\end{align}
-
-<p>
-Now, what if an additional force \(F\) is applied to the object on the incline? What with the maximum angle be then? 
-</p>
-\begin{align}
-F_N &= mg\cos\theta_{max} \pm F\sin\phi\\
-F_{fr} &= \mu_s(mg\cos\theta_{max}\pm F\sin\phi)\\
-\mu_s(mg\cos\theta_{max}\pm F\sin\phi) &= mg\sin\theta_{max} - F\cos\phi\\
-F(\cos\phi \pm \sin\phi) &= mg(\sin\theta_{max} - \mu_s\cos\theta_{max})   
-\end{align}
+<h1 class="title">Meeting 38 Problems</h1>
+<div id="outline-container-org7fb4ca8" class="outline-2">
+<h2 id="org7fb4ca8"><span class="section-number-2">1</span> Jorstad Workbook Vol.2 14.34 \(\frac{1}{2}\)</h2>
 </div>
+<div id="outline-container-org8913037" class="outline-2">
+<h2 id="org8913037"><span class="section-number-2">2</span> Jorstad Workbook Vol.2 14.33</h2>
 </div>
-
-<div id="outline-container-org8d4bafc" class="outline-2">
-<h2 id="org8d4bafc"><span class="section-number-2">2</span> Mass \(m_1\) pulled by another mass \(m_2\) freely hanging over a pulley.</h2>
-<div class="outline-text-2" id="text-2">
-\begin{align}
-m_2g-F_T &= m_2a\\
-F_T - F_{fr} &= m_1a 
-\end{align}
-
-<p>
-To find maximum possible \(m_2\) before the system begins to move: 
-</p>
-\begin{align}
-F_{fr} &= \mu_sF_N = \mu_sm_1g\\
-\end{align}
-
-\begin{align}
-m_2g-F_T &= 0\\
-F_T - \mu_sm_1g &= 0\\
-m_2g - \mu_sm_1g &=0\\
-m_2 &= \mu_sm_1
-\end{align}
-
-<p>
-To find the acceleration once the system begins to move:
-</p>
-
-\begin{align}
-m_2g-F_T &= m_2a\\
-F_T - \mu_km_1g &= m_1a\\
-m_2g - \mu_km_1g &= (m_1+m_2)a\\
-\frac{m_2 - \mu_km_1}{m_1+m_2}g &= a 
-\end{align}
+<div id="outline-container-org44ca0d5" class="outline-2">
+<h2 id="org44ca0d5"><span class="section-number-2">3</span> Jorstad Workbook Vol.2 14.30</h2>
 </div>
+<div id="outline-container-org17e8f3c" class="outline-2">
+<h2 id="org17e8f3c"><span class="section-number-2">4</span> Jorstad Workbook Vol.2 14.29</h2>
+</div>
+<div id="outline-container-org031eccd" class="outline-2">
+<h2 id="org031eccd"><span class="section-number-2">5</span> Jorstad Workbook Vol.2 14.28</h2>
 </div>
 </div>
 </body>
