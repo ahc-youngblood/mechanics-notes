@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-12-06 Sun 21:21 -->
+<!-- 2020-12-06 Sun 21:15 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>141 F2020 Exam 1 Solutions</title>
+<title>161 F2020 Exam 1 Solutions</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -230,36 +230,37 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">141 F2020 Exam 1 Solutions</h1>
-<div id="outline-container-org3fa294c" class="outline-2">
-<h2 id="org3fa294c"><span class="section-number-2">1</span> The figure on the right (on the exam) represents a free body diagram corresponding to three massless cords under tension pulling on a small mass. Assume that any gravitational force is negligible. Assume that the system is in equilibrium.</h2>
+<h1 class="title">161 F2020 Exam 1 Solutions</h1>
+<div id="outline-container-org74b5e9e" class="outline-2">
+<h2 id="org74b5e9e"><span class="section-number-2">1</span> The figure on the right (on the exam) represents a free body diagram corresponding to three massless cords under tension pulling on a small mass. Assume that any gravitational force is negligible. Assume that the system is in equilibrium.</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org5fe148c" class="outline-3">
-<h3 id="org5fe148c"><span class="section-number-3">1.1</span> With respect to our standard coordinate system (\(\hat{i}\) positive to the right and \(\hat{j}\) positive upward), find the scalar components \(T_{Ax},T_{Ay},T_{Bx},T_{By},T_{Cx},T_{Cy}\) in terms of the magnitudes \(T_A,T_B,T_C\) and the angle \(\theta_C\).</h3>
+<div id="outline-container-orgaa5e46a" class="outline-3">
+<h3 id="orgaa5e46a"><span class="section-number-3">1.1</span> With respect to our standard coordinate system (\(\hat{i}\) positive to the right and \(\hat{j}\) positive upward), find the scalar components \(T_{Ax},T_{Ay},T_{Bx},T_{By},T_{Cx},T_{Cy}\) in terms of the magnitudes \(T_A,T_B,T_C\) and the angle \(\theta_C\).</h3>
 <div class="outline-text-3" id="text-1-1">
 \begin{align*}
 T_{Ax} &= -T_A\\
 T_{Ay} &= 0\\
 T_{Bx} &= 0\\
 T_{By} &= -T_B\\
-T_{Cx} &= T_C\cos\theta_C\\
+T_{Cx} &= T_C\cos\theta_C
 T_{Cy} &= T_C\sin\theta_C
 \end{align*}
 </div>
 </div>
-<div id="outline-container-orgfa3c1e9" class="outline-3">
-<h3 id="orgfa3c1e9"><span class="section-number-3">1.2</span> Find the Cartesian (\(\hat{i}\) and \(\hat{j}\) with respect to the same coordinate system) components, magnitude, and angle \(\theta_C\) of the vector \(\vec{T}_C\) in terms of the magnitudes of \(\vec{T}_A\) and \(\vec{T}_B\).</h3>
+<div id="outline-container-orga13c3cc" class="outline-3">
+<h3 id="orga13c3cc"><span class="section-number-3">1.2</span> Find the Cartesian (\(\hat{i}\) and \(\hat{j}\) with respect to the same coordinate system) components, magnitude, and angle \(\theta_C\) of the vector \(\vec{T}_C\) in terms of the magnitudes of \(\vec{T}_A\) and \(\vec{T}_B\).</h3>
 <div class="outline-text-3" id="text-1-2">
+<p>
 \begin{align*}
-\vec{T}_C &= T_A\hat{i} + T_B\hat{j}\\
-T_C &= \sqrt{T_A^2 + T_B^2}\\
-\theta_C &= \tan^{-1}\left(\frac{T_B}{T_A}\right)
-\end{align*}
+\vec{T}_C &amp;= T_A\hat{i} + T_B\hat{j}<br />
+T_C &amp;= \sqrt{T_A^2 + T_B^2}<br />
+&theta;_C &amp;= tan^{-1}\left(\frac{T_B}{T_A}\right)
+</p>
 </div>
 </div>
-<div id="outline-container-org923ea00" class="outline-3">
-<h3 id="org923ea00"><span class="section-number-3">1.3</span> Find numerical values for part 1.2 if \(T_A\) = 8N and \(T_B\) = 17N.</h3>
+<div id="outline-container-orgfdc8b83" class="outline-3">
+<h3 id="orgfdc8b83"><span class="section-number-3">1.3</span> Find numerical values for part 1.2 if \(T_A\) = 8N and \(T_B\) = 17N.</h3>
 <div class="outline-text-3" id="text-1-3">
 \begin{align*}
 \vec{T}_C &= 8\mathrm{N}{i} + 17\mathrm{N}\hat{j}\\
@@ -269,12 +270,12 @@ T_C &= \sqrt{(8\mathrm{N})^2 + (17\mathrm{N})^2} = 66N \\
 </div>
 </div>
 </div>
-<div id="outline-container-org7094fdb" class="outline-2">
-<h2 id="org7094fdb"><span class="section-number-2">2</span> Think of the starter of an outboard motor as a cord wrapped around a solid cylinder (\(I_{cyl} = \frac{1}{2}MR^2\)) of radius \(R_c\). It takes time \(\Delta t\) for the cylinder to reach and angular velocity \(\omega\) when the cord is pulled on by a constant force of magnitude \(F\).</h2>
+<div id="outline-container-org815bf0f" class="outline-2">
+<h2 id="org815bf0f"><span class="section-number-2">2</span> Think of the starter of an outboard motor as a cord wrapped around a solid cylinder (\(I_{cyl} = \frac{1}{2}MR^2\)) of radius \(R_c\). It takes time \(\Delta t\) for the cylinder to reach and angular velocity \(\omega\) when the cord is pulled on by a constant force of magnitude \(F\).</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org48c3988" class="outline-3">
-<h3 id="org48c3988"><span class="section-number-3">2.1</span> Find an expression for the mass \(m_c\) of the cylinder in terms of \(R_c\), \(\Delta t\), \(\omega\), and \(F\).</h3>
+<div id="outline-container-org918e13b" class="outline-3">
+<h3 id="org918e13b"><span class="section-number-3">2.1</span> Find an expression for the mass \(m_c\) of the cylinder in terms of \(R_c\), \(\Delta t\), \(\omega\), and \(F\).</h3>
 <div class="outline-text-3" id="text-2-1">
 \begin{align*}
 R_cF &= I\alpha\\
@@ -282,16 +283,16 @@ R_cF &= I\alpha\\
 \frac{2F}{m_cR_c} &= \alpha\\
 \end{align*}
 <p>
-Also, \(\omega = \alpha\Delta t \Rightarrow \alpha = \frac{\omega}{\Delta t}\). So
+Also, \(\omega = \alpha\delta t \Rightarrow \alpha = \frac{\omega}{\delta t}\). So
 </p>
 \begin{align*}
-\frac{2F}{m_cR_c} &= frac{\omega}{\Delta t}\\
-\frac{2F\Delta t}{\omega R_c} &= m_c
+\frac{2F}{m_cR_c} &= frac{\omega}{\delta t}\\
+\frac{2F\delta t}{\omegaR_c} &= m_c
 \end{align*}
 </div>
 </div>
-<div id="outline-container-org075b42c" class="outline-3">
-<h3 id="org075b42c"><span class="section-number-3">2.2</span> Find a numerical value for \(m_c\) if $R_c = 7.00$cm, \(\Delta t\) = 2.00 s, \(\omega\) = 500.0 rad/s, and $F = 50.0$N.</h3>
+<div id="outline-container-orgaecbe51" class="outline-3">
+<h3 id="orgaecbe51"><span class="section-number-3">2.2</span> Find a numerical value for \(m_c\) if $R_c = 7.00$cm, \(\Delta t\) = 2.00 s, \(\omega\) = 500.0 rad/s, and $F = 50.0$N.</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 $m_c &asymp; 2.86$kg
@@ -299,61 +300,47 @@ $m_c &asymp; 2.86$kg
 </div>
 </div>
 </div>
-<div id="outline-container-orga4bb02a" class="outline-2">
-<h2 id="orga4bb02a"><span class="section-number-2">3</span> A ball is dropped from rest at a height \(h\)? At the same instant another ball is thrown down with speed \(v\) from a height 2h. What value of \(v\) will result in both balls reaching the ground at the same time?\\</h2>
+<div id="outline-container-org46a24a8" class="outline-2">
+<h2 id="org46a24a8"><span class="section-number-2">3</span> A ball is thrown at an angle \(\theta\) up to the top of a cliff of height \(l\) from a point a distance \(l\) from the base of the cliff. Find the initial speed \(v_i\) (in terms of \(\theta\)) for the ball to just hit the edge of the cliff.</h2>
 </div>
 
-<div id="outline-container-org87cab96" class="outline-2">
-<h2 id="org87cab96"><span class="section-number-2">4</span> An object of mass $m$=750 g is launched from the ground at an angle \(\theta\) = 60\(^\circ\) with a speed \(v_i\) = 10 m/s. Assume \(g\) = 9.81 m/s\(^2\).</h2>
+<div id="outline-container-org8b37b3e" class="outline-2">
+<h2 id="org8b37b3e"><span class="section-number-2">4</span> The figure shows a mass \(m_1\) on a plane incline at an angle \(\theta\) connected by a massless, unstretchable cord over a massless, frictionless pulley to a second mass \(m_2\). The coefficient of static friction is \(\mu_s\).</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org6b97a31" class="outline-3">
-<h3 id="org6b97a31"><span class="section-number-3">4.1</span> At what distance from the point it was launched will the object hit the ground (assume the landing point is at the same elevation as the launch point)?</h3>
+<div id="outline-container-orga39088b" class="outline-3">
+<h3 id="orga39088b"><span class="section-number-3">4.1</span> Draw and label a free body diagram for \(m_1\) in the absence of friction.</h3>
 </div>
-<div id="outline-container-org6a8cb37" class="outline-3">
-<h3 id="org6a8cb37"><span class="section-number-3">4.2</span> How long will it take the object to reach the ground?</h3>
-</div>
-<div id="outline-container-org9f993b5" class="outline-3">
-<h3 id="org9f993b5"><span class="section-number-3">4.3</span> What is the object's acceleration at the highest point in its path?</h3>
-</div>
-</div>
-<div id="outline-container-org5a3e94e" class="outline-2">
-<h2 id="org5a3e94e"><span class="section-number-2">5</span> The figure shows a mass \(m_1\) on a plane incline at an angle \(\theta\) connected by a massless, unstretchable cord over a massless, frictionless pulley to a second mass \(m_2\). The coefficient of static friction is \(\mu_s\).</h2>
-<div class="outline-text-2" id="text-5">
-</div>
-<div id="outline-container-org3236901" class="outline-3">
-<h3 id="org3236901"><span class="section-number-3">5.1</span> Draw and label a free body diagram for \(m_1\) in the absence of friction.</h3>
-</div>
-<div id="outline-container-org091e580" class="outline-3">
-<h3 id="org091e580"><span class="section-number-3">5.2</span> For \(\mu_s = 0, \mu_k \neq 0\), find an expression for the acceleration of \(m_1\)</h3>
-<div class="outline-text-3" id="text-5-2">
+<div id="outline-container-org3e9a429" class="outline-3">
+<h3 id="org3e9a429"><span class="section-number-3">4.2</span> For \(\mu_s = 0, \mu_k \neq 0\), find an expression for the acceleration of \(m_1\)</h3>
+<div class="outline-text-3" id="text-4-2">
 \begin{align*}
 m_1a &= T-m_1g\sin\theta - \mu_km_1g\cos\theta\\
-m_2a &= m_2g - T\\
+m_2a &= m_2g - T
 a &= g\frac{m_2 - m_1\sin\theta -\mu_km_1\cos\theta}{m_1+m_2}
 \end{align*}
 </div>
 </div>
-<div id="outline-container-orgefb3598" class="outline-3">
-<h3 id="orgefb3598"><span class="section-number-3">5.3</span> For \(\mu_s \neq 0\), find an expression for the minimum \(m_2\) that will keep \(m_1\) from sliding down the incline.</h3>
-<div class="outline-text-3" id="text-5-3">
+<div id="outline-container-orgb2b28cd" class="outline-3">
+<h3 id="orgb2b28cd"><span class="section-number-3">4.3</span> For \(\mu_s \neq 0\), find an expression for the minimum \(m_2\) that will keep \(m_1\) from sliding down the incline.</h3>
+<div class="outline-text-3" id="text-4-3">
 \begin{align*}
 0 &= m_2g + \mu_sm_1g\cos\theta - m_1g\sin\theta\\
 m_2 &= m_1(\sin\theta - \mu_s\cos\theta)\\
 \end{align*}
 </div>
 </div>
-<div id="outline-container-org24e0276" class="outline-3">
-<h3 id="org24e0276"><span class="section-number-3">5.4</span> For \(\mu_s \neq 0\), find an expression for the minimum \(m_2\) that will cause \(m_1\) to slide up the incline.</h3>
-<div class="outline-text-3" id="text-5-4">
+<div id="outline-container-org7108e16" class="outline-3">
+<h3 id="org7108e16"><span class="section-number-3">4.4</span> For \(\mu_s \neq 0\), find an expression for the minimum \(m_2\) that will cause \(m_1\) to slide up the incline.</h3>
+<div class="outline-text-3" id="text-4-4">
 <p>
 In this case the sign of the friction force is reversed so \(m_2 = m_1(\sin\theta + \mu_s\cos\theta)\).
 </p>
 </div>
 </div>
-<div id="outline-container-orgd563be9" class="outline-3">
-<h3 id="orgd563be9"><span class="section-number-3">5.5</span> If $&mu;_s = 0.5, &mu;_k = 0.25, &theta; = 30^&circ;, m_1 = 200$g and \(m_2\) is the minimum mass from part (d), find the numerical value of the tension in the cord.</h3>
-<div class="outline-text-3" id="text-5-5">
+<div id="outline-container-org1264b18" class="outline-3">
+<h3 id="org1264b18"><span class="section-number-3">4.5</span> If $&mu;_s = 0.5, &mu;_k = 0.25, &theta; = 30^&circ;, m_1 = 200$g and \(m_2\) is the minimum mass from part (d), find the numerical value of the tension in the cord.</h3>
+<div class="outline-text-3" id="text-4-5">
 \begin{align*}
 T &= m_1g(\sin\theta + \mu_s\cos\theta)
 \end{align*}
