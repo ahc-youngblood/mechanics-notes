@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-02-11 Thu 09:40 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vector Problems(solutions)</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.0}, svg: {scale: 1.0}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Vector Problems(solutions)</h1>
+<div id="outline-container-org85ed4da" class="outline-2">
+<h2 id="org85ed4da"><span class="section-number-2">1</span> Jorstad Workbook 3.3</h2>
+</div>
+<div id="outline-container-org9d9683a" class="outline-2">
+<h2 id="org9d9683a"><span class="section-number-2">2</span> Jorstad Workbook 3.7 (but with vector \(\vec{B}\) reversed).</h2>
+</div>
+<div id="outline-container-orgee47d79" class="outline-2">
+<h2 id="orgee47d79"><span class="section-number-2">3</span> Jorstad Workbook 3.7\(\frac{1}{2}\)</h2>
+<div class="outline-text-2" id="text-3">
+<script type = "text/tikz">
+
+ \begin{tikzpicture}[very thick, scale =3, font=\Huge]
+ \tikzset{>=latex};
+ \coordinate (O) at (0,0);
+ \coordinate (A) at (2,0);
+ \coordinate (B) at (0,2);
+ %\draw (O)--(A)--(B)--cycle;
+ %\filldraw[thick,fill=gray!50] (O)--(A)--(B)--cycle; 
+ %\node at (A) {2(3)\^(1/2)}; 
+ \node [above,left] at (1,1) {$\vec{A}$};
+ \draw [->] (0,0)node[left] {(0,0)}--(2,2)node[above] {(2,2)};
+
+ \draw [->] (1,1)node[below] {(1,1)}--(3.5981,2.5)node[right] {(3.59807,3.5)};
+ \node [below] at (2.3,1.75) {$\vec{B}$};
+
+ \draw [->] (3,3)node[above] {(3,3)} --(3,0.5)node[below] {(3,0.5)};
+ \node [right] at (3,1.5) {$\vec{C}$};
+
+ \draw [->] (4,0)--(5,0)node[right] {$x$};
+ \draw [->] (4,0)--(4,1)node[above] {$y$};
+ \end{tikzpicture}
+</script>
+</div>
+</div>
+<div id="outline-container-org9a78701" class="outline-2">
+<h2 id="org9a78701"><span class="section-number-2">4</span> Refer to the diagram above.</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org01bd003" class="outline-3">
+<h3 id="org01bd003"><span class="section-number-3">4.1</span> Find \(|\vec{A}|\), \(|\vec{B}|\), \(|\vec{C}|\).</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Recall that the magnitude of a vector \(\vec{V}\) is given by \(|\vec{V}| = \sqrt{V_x^2 + V_y^2}\). Now \(A_x = x_{A2}-x_{A1} = 2-0\) and \(A_y = y_{A2}-y_{A1} = 2-0\) so \(|\vec{A}| = sqrt{8}=2\sqrt{2}\). Similarly, \(|\vec{B}| = \sqrt{(2.59807)^2 + (2.5)^2} \approx 3.6055\) and \(|\vec{C}|=2.5\).  
+</p>
+</div>
+</div>
+<div id="outline-container-org75ac4f9" class="outline-3">
+<h3 id="org75ac4f9"><span class="section-number-3">4.2</span> Find the angle of each vector with respect to both the \(x\) and the \(y\) axis.</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+With respect to the $x$-axis the angle of a vector \(\vec{V}\) is given by \(\theta_x = \arctan\left(\frac{V_y}{V_x}\right)\). With respect to the $y$-axis, it is instead given by \(\phi_y = \arctan\left(\frac{V_x}{V_y}\right)\). Notice that the angles with respect to the two different axes differ by 90\(^\circ\) which is \(\pi/2\) radians.   
+</p>
+</div>
+</div>
+<div id="outline-container-orgf534ecf" class="outline-3">
+<h3 id="orgf534ecf"><span class="section-number-3">4.3</span> Find All the sums and differences of each pair of vectors. For example, \(\vec{A} + \vec{B}\), \(\vec{B}-\vec{A}\) etc. [Note, some follow simply from others].</h3>
+</div>
+<div id="outline-container-orgd8bb622" class="outline-3">
+<h3 id="orgd8bb622"><span class="section-number-3">4.4</span> Find \(\vec{A} + \vec{B} + \vec{C}\).</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+This is \((A_x+B_x+C_x)\hat{i} + (A_y+B_y+C_y)\hat{j} = 4.59807\hat{i} + 1.0\hat{j}\)
+</p>
+</div>
+</div>
+<div id="outline-container-org3ba00c1" class="outline-3">
+<h3 id="org3ba00c1"><span class="section-number-3">4.5</span> What vector \(\vec{D}\) would be required to close (return to the origin of \(\vec{A}\)) a figure or path whose first three vectors are \(\vec{A},\vec{B},\vec{C}\)?</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+If we return to the origin, we know that \(\vec{A} + \vec{B} + \vec{C} + \vec{D} = \vec{0}\) so \(\vec{D} = -(\vec{A} + \vec{B} + \vec{C})\) which is just the opposite of the result of the previous question, so \(\vec{D}=-4.59807\hat{i} -1.0\hat{j}\).
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge920b61" class="outline-2">
+<h2 id="orge920b61"><span class="section-number-2">5</span> Jorstad Workbook 1.29</h2>
+<div class="outline-text-2" id="text-5">
+<script type = "text/tikz">
+
+ \begin{tikzpicture}[very thick, scale =3, font=\Huge]
+ \tikzset{>=latex};
+ \coordinate (O) at (0,0);
+ \coordinate (A) at (-2,2);
+ \coordinate (B) at (2,2);
+ \coordinate (C) at (2,-2);
+ \coordinate (D) at (-2,-2);
+ %\draw (O)--(A)--(B)--cycle;
+ %\filldraw[thick,fill=gray!50] (O)--(A)--(B)--cycle; 
+ %\node at (A) {2(3)\^(1/2)}; 
+
+ \node [above,left] at (A) {$m_A$};
+ %\draw [->] (0,0)node[left] {(0,0)}--(2,2)node[above] {(2,2)};
+ \fill (A) circle (0.6mm);
+
+ %\draw [->] (1,1)node[below] {(1,1)}--(3.5981,2.5)node[right] {(3.59807,3.5)};
+ \node [right] at (B) {$m_B$};
+ \fill (B) circle (0.6mm);
+
+ %\draw [->] (3,3)node[above] {(3,3)} --(3,0.5)node[below] {(3,0.5)};
+ \node [right,below] at (C) {$m_C$};
+ \fill (C) circle (0.6mm);
+
+ \node [left,below] at (D) {$m_D$};
+ \fill (D) circle (0.6mm);
+
+ \fill (O) circle (1pt);
+ \node [left,above] at (O) {$O$};
+
+ %\draw [->] (4,0)--(5,0)node[right] {$x$};
+ %\draw [->] (4,0)--(4,1)node[above] {$y$};
+ \end{tikzpicture}
+</script>
+</div>
+</div>
+<div id="outline-container-orgecc9252" class="outline-2">
+<h2 id="orgecc9252"><span class="section-number-2">6</span> Refer to the diagram above. Assume \(m_A\) and \(m_B\) are separated by a distance \(2s\).</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Note: The solution below uses the separation between sides of \(2s\), for the question as originally posted, replace \(s\) in these solutions with \(s/2\).
+</p>
+</div>
+<div id="outline-container-orgcef3648" class="outline-3">
+<h3 id="orgcef3648"><span class="section-number-3">6.1</span> If \(m_A, m_B, m_C, m_D\) are the same. What is the distance of the center of mass of the set of masses from the origin</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+\(\vec{x}_A = -s\hat{i} + s\hat{j}\)
+</p>
+
+<p>
+\(\vec{x}_B = s\hat{i} + s\hat{j}\)
+</p>
+
+<p>
+\(\vec{x}_C = s\hat{i} - s\hat{j}\)
+</p>
+
+<p>
+\(\vec{x}_D = -s\hat{i} - s\hat{j}\)
+</p>
+
+<p>
+Now we can apply the formula for the center of mass, in this case of four objects 
+\[
+\vec{x}_{cm} = \frac{m_A\vec{x}_A + m_B\vec{x}_B + m_C\vec{x}_C + m_D\vec{x}_D}{m_A+m_B+m_C+m_D}
+\]
+Since the vectors cancel when summed together we can say that the center of mass is at the origin or \(\vec{O}\) and therefore the distance from the origin, which would be \(|\vec{x}_{cm}|\) is 0m.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6c7de66" class="outline-3">
+<h3 id="org6c7de66"><span class="section-number-3">6.2</span> If \(m_A\) has twice the mass of any of the other masses, which all have the same mass as each other. What is the new distance of the center of mass from the origin \(O\) in terms of \(s\)?</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Now \(2m\vec{x}_A + m\vec{x}_B + m\vec{x}_C + m\vec{x}_D = m\vec{x}_A =  -ms\hat{i} + ms\hat{j}\).
+</p>
+
+<p>
+Also, \(m_A+m_B+m_C+m_D\) = \(5m\) so \(\vec{x}_{cm} = \frac{1}{5}(-s\hat{i} + s\hat{j})\) and the distance is \(\frac{\sqrt{2}s}{5}\).
+</p>
+</div>
+</div>
+<div id="outline-container-org5fc7a6c" class="outline-3">
+<h3 id="org5fc7a6c"><span class="section-number-3">6.3</span> If instead \(m_A\) is removed, what is the new distance of the center of mass from the origin \(O\)?</h3>
+<div class="outline-text-3" id="text-6-3">
+<p>
+In this case \(m\vec{x}_B + m\vec{x}_C + m\vec{x}_D = ms\hat{i} - ms\hat{j}\). This time the total mass is just \(3m\) so 
+\(\vec{x}_{cm} = \frac{1}{3}(s\hat{i} - s\hat{j})\) and the distance will be \(\frac{\sqrt{2}s}{3}\).
+</p>
+</div>
+</div>
+<div id="outline-container-org212e6cc" class="outline-3">
+<h3 id="org212e6cc"><span class="section-number-3">6.4</span> If both \(m_A\) and \(m_C\) are removed and \(m_D=3m_B\), what is the new distance of the cneter of mass from the origin \(O\)?.</h3>
+<div class="outline-text-3" id="text-6-4">
+<p>
+For this case \(m_B\vec{x}_B + 3m_B\vec{x}_D = -2m_Bs\hat{i} - 2m_Bs\hat{j}\). The total mass is \(4m_B\) so the position vector for the center of mass is \(\vec{x}_{cm} = \frac{1}{2}(-s\hat{i} - s\hat{j})\). The distance will be \(\frac{\sqrt{2}s}{2}\).
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc99f77" class="outline-3">
+<h3 id="orgdc99f77"><span class="section-number-3">6.5</span> In the preceding case, what is the position vector (you can also think of this as a displacement vector) of the center of mass from the origin \(O\) in the standard \(x\) -horizontal, \(y\) -vertical coordinate system ?</h3>
+<div class="outline-text-3" id="text-6-5">
+<p>
+This was already found in the previous part.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org774195c" class="outline-2">
+<h2 id="org774195c"><span class="section-number-2">7</span> Jorstad Workbook 3.9</h2>
+</div>
+<div id="outline-container-org7104d68" class="outline-2">
+<h2 id="org7104d68"><span class="section-number-2">8</span> Jorstad Workbook 3.10</h2>
+</div>
+<div id="outline-container-org4d0f5fb" class="outline-2">
+<h2 id="org4d0f5fb"><span class="section-number-2">9</span> Jorstad Workbook 3.13</h2>
+<div class="outline-text-2" id="text-9">
+<script type = "text/tikz">
+
+ \begin{tikzpicture}[very thick, scale =3, font=\Huge]
+ \tikzset{>=latex};
+ \coordinate (O) at (0,0);
+ \coordinate (A) at (2,0);
+ \coordinate (B) at (0,2);
+ %\draw (O)--(A)--(B)--cycle;
+ %\filldraw[thick,fill=gray!50] (O)--(A)--(B)--cycle; 
+ %\node at (A) {2(3)\^(1/2)}; 
+ \node [above,left] at (1,1) {$\vec{A}$};
+ \draw [->] (0,0)node[left] {(0,0)}--(2,2)node[above] {(2,2)};
+
+ \draw [->] (1,1)node[below] {(1,1)}--(3.5981,2.5)node[right] {(3.59807,3.5)};
+ \node [below] at (2.3,1.75) {$\vec{B}$};
+
+ \draw [->] (3,3)node[above] {(3,3)} --(3,0.5)node[below] {(3,0.5)};
+ \node [right] at (3,1.5) {$\vec{C}$};
+
+ \draw [->] (4,0)--(5,0)node[right] {$x$};
+ \draw [->] (4,0)--(4,1)node[above] {$y$};
+ \end{tikzpicture}
+</script>
+</div>
+</div>
+
+<div id="outline-container-org8007250" class="outline-2">
+<h2 id="org8007250"><span class="section-number-2">10</span> Refer to the diagram above.</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-org70da146" class="outline-3">
+<h3 id="org70da146"><span class="section-number-3">10.1</span> Find \(\vec{A}\cdot\vec{B}\) and \(\vec{B}\cdot\vec{C}\).</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+From the earlier problem we have \(\vec{A} = 2\hat{i} + 2\hat{j}, \vec{B} = 2.6\hat{i} + 2.5\hat{j}, \vec{C} = -2.5\hat{j}\). So 
+\[
+\vec{A}\cdot\vec{B} = (2)(2.59807)\hat{i}\cdot\hat{i} + (2)(2.5)\hat{j}\cdot\hat{j} = 10.19614
+\]
+\[
+\vec{B}\cdot\vec{C} = (2.59807)(0) + (2.5)(-2.5) = -6.25
+\] 
+</p>
+</div>
+</div>
+<div id="outline-container-org01091a5" class="outline-3">
+<h3 id="org01091a5"><span class="section-number-3">10.2</span> Find \(\vec{A}\times\vec{B}\) and \(\vec{B}\times\vec{C}\).</h3>
+<div class="outline-text-3" id="text-10-2">
+<p>
+Earlier, we derived the fact that in two dimensions a cross product between any two vectors \(\vec{A}\) and \(\vec{B}\) is (A_xB_y - A_yB_x)\hat{k} so for our specific vectors
+\[
+\vec{A}\times\vec{B} = [(2)(2.5)-(2)(2.6)]\hat{k} = -0.2\hat{k}
+\]
+\[
+\vec{B}\times\vec{C} = [(2.6)(-2.5)-(2.5)(0)]\hat{k} = -6.5\hat{k}
+\]
+</p>
+</div>
+</div>
+<div id="outline-container-orgfce9fdb" class="outline-3">
+<h3 id="orgfce9fdb"><span class="section-number-3">10.3</span> Use a dot product and trigonometry to find the angle between \(\vec{A}\) and \(\vec{B}\).</h3>
+<div class="outline-text-3" id="text-10-3">
+<p>
+Recall that 
+\[
+\cos\theta = \frac{\vec{A}\cdot\vec{B}}{AB}
+\]
+so 
+\[
+\theta_{AB} \approx \cos^{-1}\left(\frac{10.19614}{(2\sqrt{2})(3.6055)} = \cos^{-1}(0.9998) = 0^\circ 
+\]
+</p>
+</div>
+</div>
+<div id="outline-container-org78a10d1" class="outline-3">
+<h3 id="org78a10d1"><span class="section-number-3">10.4</span> Use a cross product and trigonometry to fine the angle between \(\vec{A}\) and \(\vec{C}\).</h3>
+<div class="outline-text-3" id="text-10-4">
+<p>
+Recall that 
+\[
+\sin\theta = \frac{|\vec{A}\times\vec{C}|}{AC}
+\]
+so
+\[
+\theta_{AC} = \sin^{-1}\frac{5}{-5\sqrt{2}} = -135^\circ 
+\]
+</p>
+</div>
+</div>
+<div id="outline-container-org9280042" class="outline-3">
+<h3 id="org9280042"><span class="section-number-3">10.5</span> Calculate and explain what is different between \(\vec{A}\cdot(\vec{B}\times\vec{C})\) and \(\vec{A}\cdot(\vec{C}\times\vec{B})\).</h3>
+<div class="outline-text-3" id="text-10-5">
+<p>
+They have opposite signs.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd029f3" class="outline-3">
+<h3 id="orgbd029f3"><span class="section-number-3">10.6</span> Calculate and check whether \(\vec{A}\times(\vec{B}\times\vec{C})\) is the same as \((\vec{A}\times\vec{B})\times\vec{C}\). If they are different, are they different in the same way as the products in 10.5? If one way to think of vector cross products is as rotations, what does your result mean about the order in which you rotate things about different axes? Try exploring this with a book or other physical object.</h3>
+<div class="outline-text-3" id="text-10-6">
+<p>
+For the first case, we already have that \(\vec{B}\times\vec{C} = -6.5\hat{k}\) so 
+\[
+\vec{A}\times(\vec{B}\times\vec{C}) = (2)(-6.5)\hat{i}\times\hat{k} + (2)(-6.5)\hat{j}\times\hat{k} = -13(-\hat{j}) + (-13)(\hat{i}) = 13\hat{i} - 13\hat{j}
+\]
+We also know that \(\vec{A}\times\vec{B}= -0.2\hat{k}\) so
+\[
+(\vec{A}\times\vec{B})\times\vec{C} = (-0.2)(0)\hat{k}\times\hat{i} + (-0.2)(-2.5)\hat{k}\times\hat{j} = -0.5\hat{i}
+\]
+The order in which you carry out rotations matters.  
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org61e39a0" class="outline-2">
+<h2 id="org61e39a0"><span class="section-number-2">11</span> Consider two displacement vectors, \(\vec{x}_1\) with \(|\vec{x}_1|\) = 7m and \(\vec{x}_2\) with \(|\vec{x}_2|\) = 4m.</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org3e21f8c" class="outline-3">
+<h3 id="org3e21f8c"><span class="section-number-3">11.1</span> What is the magnitude of the vector with the greatest magnitude that a sum of these two vectors can form?</h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+The greatest magnitude occurs when the two vectors in the sum are along the same axis and point in the same direction. In this case \(|\vec{x}_1 + \vec{x}_2| = |\vec{x}_1| + |\vec{x}_2|\) = 7m + 4m = 11m.
+</p>
+</div>
+</div>
+<div id="outline-container-orge76beea" class="outline-3">
+<h3 id="orge76beea"><span class="section-number-3">11.2</span> What is the magnitude of the vector with the least magnitude that a sum of these two vectors can form?</h3>
+<div class="outline-text-3" id="text-11-2">
+<p>
+The least magnitude occurs when the two vectors in the sum are along the same axis and point in opposite directions. In this case \(|\vec{x}_1 + \vec{x}_2| = |\vec{x}_1| - |\vec{x}_2|\) = 7m - 4m = 3m.
+</p>
+</div>
+</div>
+<div id="outline-container-orgceb52d6" class="outline-3">
+<h3 id="orgceb52d6"><span class="section-number-3">11.3</span> Now consider a velocity vector \(\vec{v}\) with magnitude 2\(\frac{\text{m}}{\text{s}}\). What is the greatest possible magnitude of \(\vec{x}_1 +\vec{v} +\vec{x}_2\)?(Be careful.)</h3>
+<div class="outline-text-3" id="text-11-3">
+<script type = "text/tikz">
+
+ \begin{tikzpicture}[very thick, scale =3, font=\Huge]
+ \tikzset{>=latex};
+ \coordinate (O) at (0,0);
+ \coordinate (A) at (2,0);
+ \coordinate (B) at (0,2);
+ %\draw (O)--(A)--(B)--cycle;
+ %\filldraw[thick,fill=gray!50] (O)--(A)--(B)--cycle; 
+ %\node at (A) {2(3)\^(1/2)}; 
+ \node [above,left] at (1,1) {$\vec{A}$};
+ \draw [->] (0,0)node[left] {(0,0)}--(2,2)node[above] {(2,2)};
+
+ \draw [->] (1,1)node[below] {(1,1)}--(3.5981,2.5)node[right] {(3.59807,2.5)};
+ \node [below] at (2.3,1.75) {$\vec{B}$};
+
+ \draw [->] (3,3)node[above] {(3,3)} --(3,0.5)node[below] {(3,0.5)};
+ \node [right] at (3,1.5) {$\vec{C}$};
+
+ \draw [->] (4,0)--(5,0)node[right] {$x$};
+ \draw [->] (4,0)--(4,1)node[above] {$y$};
+ \end{tikzpicture}
+</script>
+<p>
+It is impossible to sum the given vectors because they do not have the same units.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
