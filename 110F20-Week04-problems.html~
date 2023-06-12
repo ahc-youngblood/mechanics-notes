@@ -231,59 +231,59 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Week 4 Problems</h1>
-<div id="outline-container-org75791ed" class="outline-2">
-<h2 id="org75791ed"><span class="section-number-2">1</span> Two cars (\(A\) and \(B\)) start at the same position with the same speed \(v_{ix}\). Car \(A\) maintains constant speed while car \(B\) decelerates with constant acceleration \(-a_x\). At the instant that \(B\) reaches a speed of \(0\), what is the ratio of distances traveled by \(A\) and \(B\).</h2>
+<div id="outline-container-org1a436fa" class="outline-2">
+<h2 id="org1a436fa"><span class="section-number-2">1</span> Two cars (\(A\) and \(B\)) start at the same position with the same speed \(v_{ix}\). Car \(A\) maintains constant speed while car \(B\) decelerates with constant acceleration \(-a_x\). At the instant that \(B\) reaches a speed of \(0\), what is the ratio of distances traveled by \(A\) and \(B\).</h2>
 </div>
 
-<div id="outline-container-org7bf541a" class="outline-2">
-<h2 id="org7bf541a"><span class="section-number-2">2</span> Jorstad Workbook 4.12</h2>
+<div id="outline-container-org524afaf" class="outline-2">
+<h2 id="org524afaf"><span class="section-number-2">2</span> Jorstad Workbook 4.12</h2>
 </div>
 
-<div id="outline-container-orgb972024" class="outline-2">
-<h2 id="orgb972024"><span class="section-number-2">3</span> A ball is thrown with speed \(v_i\) at an angle \(\theta\) with respect to horizontal from a point at a distance \(d\) from the base of a cliff of height \(h\). The ball lands just on the edge of the cliff.</h2>
+<div id="outline-container-orgbaa359c" class="outline-2">
+<h2 id="orgbaa359c"><span class="section-number-2">3</span> A ball is thrown with speed \(v_i\) at an angle \(\theta\) with respect to horizontal from a point at a distance \(d\) from the base of a cliff of height \(h\). The ball lands just on the edge of the cliff.</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org40c78d7" class="outline-3">
-<h3 id="org40c78d7"><span class="section-number-3">3.1</span> Find an expression for \(h\) in terms of \(d\), \(v_i\) and \(\theta\).</h3>
+<div id="outline-container-org5925062" class="outline-3">
+<h3 id="org5925062"><span class="section-number-3">3.1</span> Find an expression for \(h\) in terms of \(d\), \(v_i\) and \(\theta\).</h3>
 </div>
-<div id="outline-container-orgbee89f5" class="outline-3">
-<h3 id="orgbee89f5"><span class="section-number-3">3.2</span> Special case: Find \(v_i\) in terms of \(\theta\) if \(h=d=l\).</h3>
+<div id="outline-container-orge10d945" class="outline-3">
+<h3 id="orge10d945"><span class="section-number-3">3.2</span> Special case: Find \(v_i\) in terms of \(\theta\) if \(h=d=l\).</h3>
 </div>
-<div id="outline-container-org63bbbba" class="outline-3">
-<h3 id="org63bbbba"><span class="section-number-3">3.3</span> Extra special case: Find \(v_i\) and \(\theta\) if \(h=d=l\) and the ball hits the top of the cliff traveling horizontally.</h3>
+<div id="outline-container-org58574c9" class="outline-3">
+<h3 id="org58574c9"><span class="section-number-3">3.3</span> Extra special case: Find \(v_i\) and \(\theta\) if \(h=d=l\) and the ball hits the top of the cliff traveling horizontally.</h3>
 </div>
 </div>
-<div id="outline-container-orgd087287" class="outline-2">
-<h2 id="orgd087287"><span class="section-number-2">4</span> Jorstad Workbook 4.14</h2>
-</div>
-
-<div id="outline-container-org407e68f" class="outline-2">
-<h2 id="org407e68f"><span class="section-number-2">5</span> Jorstad Workbook 4.13</h2>
+<div id="outline-container-org6240307" class="outline-2">
+<h2 id="org6240307"><span class="section-number-2">4</span> Jorstad Workbook 4.14</h2>
 </div>
 
-<div id="outline-container-org903d8ce" class="outline-2">
-<h2 id="org903d8ce"><span class="section-number-2">6</span> Openstax Problem 4.40</h2>
+<div id="outline-container-orgec98a53" class="outline-2">
+<h2 id="orgec98a53"><span class="section-number-2">5</span> Jorstad Workbook 4.13</h2>
 </div>
 
-<div id="outline-container-orgf42b6af" class="outline-2">
-<h2 id="orgf42b6af"><span class="section-number-2">7</span> Jorstad Workbook 4.19</h2>
+<div id="outline-container-org071f884" class="outline-2">
+<h2 id="org071f884"><span class="section-number-2">6</span> Openstax Problem 4.40</h2>
 </div>
-<div id="outline-container-org5c5161c" class="outline-2">
-<h2 id="org5c5161c"><span class="section-number-2">8</span> Jorstad Workbook 4.22</h2>
+
+<div id="outline-container-org9f6dec1" class="outline-2">
+<h2 id="org9f6dec1"><span class="section-number-2">7</span> Jorstad Workbook 4.19</h2>
 </div>
-<div id="outline-container-org236a47a" class="outline-2">
-<h2 id="org236a47a"><span class="section-number-2">9</span> An insect on the surface of a pond passes over an initially stationary fish with a velocity \(\vec{v}_i\) =0.4 \(\frac{\mathrm{m}}{\mathrm{s}} \hat{i} - 0.15 \frac{\mathrm{m}}{\mathrm{s}}\hat{j}\) and an acceleration \(\vec{a}_i\) = -0.1 \(\frac{\mathrm{m}}{\mathrm{s}^2}\hat{i} + 0.25 \frac{\mathrm{m}}{\mathrm{s}^2}\hat{j}\) .</h2>
+<div id="outline-container-org8fc5a12" class="outline-2">
+<h2 id="org8fc5a12"><span class="section-number-2">8</span> Jorstad Workbook 4.22</h2>
+</div>
+<div id="outline-container-org024c3f5" class="outline-2">
+<h2 id="org024c3f5"><span class="section-number-2">9</span> An insect on the surface of a pond passes over an initially stationary fish with a velocity \(\vec{v}_i\) =0.4 \(\frac{\mathrm{m}}{\mathrm{s}} \hat{i} - 0.15 \frac{\mathrm{m}}{\mathrm{s}}\hat{j}\) and an acceleration \(\vec{a}_i\) = -0.1 \(\frac{\mathrm{m}}{\mathrm{s}^2}\hat{i} + 0.25 \frac{\mathrm{m}}{\mathrm{s}^2}\hat{j}\) .</h2>
 <div class="outline-text-2" id="text-9">
 </div>
-<div id="outline-container-org1f5d8fb" class="outline-3">
-<h3 id="org1f5d8fb"><span class="section-number-3">9.1</span> If the fish begins pursuing the insect immediately, what must the fish's acceleration be if it is to catch the insect in 2 seconds?</h3>
+<div id="outline-container-orgd2fbc5a" class="outline-3">
+<h3 id="orgd2fbc5a"><span class="section-number-3">9.1</span> If the fish begins pursuing the insect immediately, what must the fish's acceleration be if it is to catch the insect in 2 seconds?</h3>
 </div>
-<div id="outline-container-org25e6818" class="outline-3">
-<h3 id="org25e6818"><span class="section-number-3">9.2</span> How far with the fish have traveled in this time?</h3>
+<div id="outline-container-org65ab893" class="outline-3">
+<h3 id="org65ab893"><span class="section-number-3">9.2</span> How far with the fish have traveled in this time?</h3>
 </div>
 </div>
-<div id="outline-container-orgaa2d86c" class="outline-2">
-<h2 id="orgaa2d86c"><span class="section-number-2">10</span> Jorstad Workbook 4.37</h2>
+<div id="outline-container-orge8e02f1" class="outline-2">
+<h2 id="orge8e02f1"><span class="section-number-2">10</span> Jorstad Workbook 4.37</h2>
 </div>
 </div>
 </body>

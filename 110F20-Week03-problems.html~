@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-10-25 Sun 09:29 -->
+<!-- 2020-11-14 Sat 16:45 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 3 Problems</title>
@@ -180,7 +180,7 @@
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-<script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
+<script type="text/javascript"> MathJax = {tex: {inlineMath: [['$', '$'], ['\\(','\\)']]}, chtml: {scale: 1.0}, svg: {scale: 1.0}};</script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><script src="tikzjax.js"></script><link rel="stylesheet" type="text/css" href="fonts.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -227,109 +227,87 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
 <h1 class="title">Week 3 Problems</h1>
-<div id="outline-container-orgd1f8526" class="outline-2">
-<h2 id="orgd1f8526"><span class="section-number-2">1</span> Jorstad Workbook 2.1 - 2.1 \(\frac{1}{2}\) (For 2.1, make a simple copy of the table and fill it in).</h2>
+<div id="outline-container-org1675929" class="outline-2">
+<h2 id="org1675929"><span class="section-number-2">1</span> Jorstad Workbook 2.1 - 2.1 \(\frac{1}{2}\) (For 2.1, make a simple copy of the table and fill it in).</h2>
 </div>
 
-<div id="outline-container-org2be4d42" class="outline-2">
-<h2 id="org2be4d42"><span class="section-number-2">2</span> An object slides on a flat, frictionless surface. At \(t\) = 0 s, it is at a position \(x_i\) = ? m with initial velocity \(v_{ix}\) = ? \(\frac{\text{m}}{\text{s}}\) , subject to a constant acceleration \(a_x\) = 0.9 \(\frac{\text{m}}{\text{s}^2}\). At \(t\) = 4.0 s, the object's velocity is \(v_{fx}\) = 2.0 \(\frac{\text{m}}{\text{s}}\) and its position is \(x_f = 3.0\) m.</h2>
+<div id="outline-container-orgde0d722" class="outline-2">
+<h2 id="orgde0d722"><span class="section-number-2">2</span> An object slides on a flat, frictionless surface. At \(t\) = 0 s, it is at a position \(x_i\) = ? m with initial velocity \(v_{ix}\) = ? \(\frac{\text{m}}{\text{s}}\) , subject to a constant acceleration \(a_x\) = 0.9 \(\frac{\text{m}}{\text{s}^2}\). At \(t\) = 4.0 s, the object's velocity is \(v_{fx}\) = 2.0 \(\frac{\text{m}}{\text{s}}\) and its position is \(x_f = 3.0\) m.</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgc58e2ca" class="outline-3">
-<h3 id="orgc58e2ca"><span class="section-number-3">2.1</span> Find values of \(v_{ix}\) and \(x_i\) that will make this a true and consistent statement.</h3>
+<div id="outline-container-orge200b5a" class="outline-3">
+<h3 id="orge200b5a"><span class="section-number-3">2.1</span> Find values of \(v_{ix}\) and \(x_i\) that will make this a true and consistent statement.</h3>
 </div>
-<div id="outline-container-org13abb62" class="outline-3">
-<h3 id="org13abb62"><span class="section-number-3">2.2</span> At \(t\) = 5.0 s, what will be the new values of \(x_f\), \(v_{fx}\), and \(a_x\)?</h3>
+<div id="outline-container-orgd344fb2" class="outline-3">
+<h3 id="orgd344fb2"><span class="section-number-3">2.2</span> At \(t\) = 5.0 s, what will be the new values of \(x_f\), \(v_{fx}\), and \(a_x\)?</h3>
 </div>
-<div id="outline-container-orgb25287d" class="outline-3">
-<h3 id="orgb25287d"><span class="section-number-3">2.3</span> At \(t\) = -3.0 s, what were the values of \(x_f\), \(v_{fx}\), and \(a_x\)? (Assume that the object has been moving since at least that time. I'm messing with our usual notion of "final" here but maybe you see where I'm going with this. If not, ask me.)</h3>
+<div id="outline-container-orgd7fc84f" class="outline-3">
+<h3 id="orgd7fc84f"><span class="section-number-3">2.3</span> At \(t\) = -3.0 s, what were the values of \(x_f\), \(v_{fx}\), and \(a_x\)? (Assume that the object has been moving since at least that time. I'm messing with our usual notion of "final" here but maybe you see where I'm going with this. If not, ask me.)</h3>
 </div>
-</div>
-
-<div id="outline-container-orgb54e86b" class="outline-2">
-<h2 id="orgb54e86b"><span class="section-number-2">3</span> Jorstad Workbook 2.2(a)</h2>
 </div>
 
-<div id="outline-container-org263f749" class="outline-2">
-<h2 id="org263f749"><span class="section-number-2">4</span> Jorstad Workbook 2.3</h2>
+<div id="outline-container-org896524c" class="outline-2">
+<h2 id="org896524c"><span class="section-number-2">3</span> Jorstad Workbook 2.2(a)</h2>
 </div>
 
-<div id="outline-container-org32df37a" class="outline-2">
-<h2 id="org32df37a"><span class="section-number-2">5</span> Jorstad Workbook 2.13</h2>
+<div id="outline-container-orgd150b75" class="outline-2">
+<h2 id="orgd150b75"><span class="section-number-2">4</span> Jorstad Workbook 2.3</h2>
 </div>
 
-<div id="outline-container-org2ebbbed" class="outline-2">
-<h2 id="org2ebbbed"><span class="section-number-2">6</span> Jorstad Workbook 2.15</h2>
+<div id="outline-container-orgc3b9853" class="outline-2">
+<h2 id="orgc3b9853"><span class="section-number-2">5</span> Jorstad Workbook 2.13</h2>
 </div>
 
-<div id="outline-container-org880833c" class="outline-2">
-<h2 id="org880833c"><span class="section-number-2">7</span> Jorstad Workbook 2.18</h2>
+<div id="outline-container-orgf08e884" class="outline-2">
+<h2 id="orgf08e884"><span class="section-number-2">6</span> Jorstad Workbook 2.15</h2>
 </div>
 
-<div id="outline-container-org8394e18" class="outline-2">
-<h2 id="org8394e18"><span class="section-number-2">8</span> Jorstad Workbook 2.23</h2>
+<div id="outline-container-org89743c2" class="outline-2">
+<h2 id="org89743c2"><span class="section-number-2">7</span> Jorstad Workbook 2.18</h2>
 </div>
 
-<div id="outline-container-org1fb93ab" class="outline-2">
-<h2 id="org1fb93ab"><span class="section-number-2">9</span> Jorstad Workbook 2.24</h2>
+<div id="outline-container-org725e86e" class="outline-2">
+<h2 id="org725e86e"><span class="section-number-2">8</span> Jorstad Workbook 2.23</h2>
 </div>
 
-<div id="outline-container-orgc32bde7" class="outline-2">
-<h2 id="orgc32bde7"><span class="section-number-2">10</span> Jorstad Workbook 2.35</h2>
+<div id="outline-container-org91a25dc" class="outline-2">
+<h2 id="org91a25dc"><span class="section-number-2">9</span> Jorstad Workbook 2.24</h2>
 </div>
 
-<div id="outline-container-org1534ed6" class="outline-2">
-<h2 id="org1534ed6"><span class="section-number-2">11</span> Jorstad Workbook 2.37</h2>
+<div id="outline-container-org1112f28" class="outline-2">
+<h2 id="org1112f28"><span class="section-number-2">10</span> Jorstad Workbook 2.35</h2>
 </div>
 
-<div id="outline-container-orgc712eb1" class="outline-2">
-<h2 id="orgc712eb1"><span class="section-number-2">12</span> Jorstad Workbook 2.47</h2>
+<div id="outline-container-orgcef8910" class="outline-2">
+<h2 id="orgcef8910"><span class="section-number-2">11</span> Jorstad Workbook 2.37</h2>
 </div>
 
-<div id="outline-container-org2918dcb" class="outline-2">
-<h2 id="org2918dcb"><span class="section-number-2">13</span> A ball is dropped from a height \(h\) at the same instant that another ball, directly below the first, is launched straight up from the ground with a velocity \(v_0\).</h2>
+<div id="outline-container-orgf94dce2" class="outline-2">
+<h2 id="orgf94dce2"><span class="section-number-2">12</span> Jorstad Workbook 2.47</h2>
+</div>
+
+<div id="outline-container-org7f40294" class="outline-2">
+<h2 id="org7f40294"><span class="section-number-2">13</span> A ball is dropped from a height \(h\) at the same instant that another ball, directly below the first, is launched straight up from the ground with a velocity \(v_0\).</h2>
 <div class="outline-text-2" id="text-13">
 </div>
-<div id="outline-container-orgc7ec6a7" class="outline-3">
-<h3 id="orgc7ec6a7"><span class="section-number-3">13.1</span> At what time (in terms of \(v_0\) and \(h\) ) will the balls collide?</h3>
+<div id="outline-container-orgd8d5597" class="outline-3">
+<h3 id="orgd8d5597"><span class="section-number-3">13.1</span> At what time (in terms of \(v_0\) and \(h\) ) will the balls collide?</h3>
 </div>
 
-<div id="outline-container-org6c10ead" class="outline-3">
-<h3 id="org6c10ead"><span class="section-number-3">13.2</span> If one of the balls has zero velocity when they collide, what was the initial velocity \(v_0\) of the thrown ball (in terms of \(g\) and \(h\) )?</h3>
+<div id="outline-container-org62a6c3e" class="outline-3">
+<h3 id="org62a6c3e"><span class="section-number-3">13.2</span> If one of the balls has zero velocity when they collide, what was the initial velocity \(v_0\) of the thrown ball (in terms of \(g\) and \(h\) )?</h3>
 </div>
 
-<div id="outline-container-org7cc4452" class="outline-3">
-<h3 id="org7cc4452"><span class="section-number-3">13.3</span> Find an expression for the vertical position (y-coordinate) when the balls collide, both in general and in the situation of part (b).</h3>
+<div id="outline-container-orga37bea7" class="outline-3">
+<h3 id="orga37bea7"><span class="section-number-3">13.3</span> Find an expression for the vertical position (y-coordinate) when the balls collide, both in general and in the situation of part (b).</h3>
 </div>
 
-<div id="outline-container-org471ffec" class="outline-3">
-<h3 id="org471ffec"><span class="section-number-3">13.4</span> What is the magnitude of the velocity of the dropped ball (in terms of \(v_0\) ) just before the balls collide.</h3>
+<div id="outline-container-org086fe02" class="outline-3">
+<h3 id="org086fe02"><span class="section-number-3">13.4</span> What is the magnitude of the velocity of the dropped ball (in terms of \(v_0\) ) just before the balls collide.</h3>
 </div>
 </div>
 </div>
